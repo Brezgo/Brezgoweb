@@ -1194,7 +1194,6 @@ width: 0px;
   visibility: hidden;
   width: 100%;
   z-index: 20;
-  margin: -25px 0 0 0;
 }
 .header-default--nav-open .header-default__drawer {
   -webkit-transform: translateX(0);

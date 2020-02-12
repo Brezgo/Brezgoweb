@@ -288,14 +288,23 @@
     opacity: .8;
   }
 }
- 
 .fondo{
   width: 1000px ;
+}
+.logo-brezgo{
+  width: 70px;
+  margin: 15px 0 0 0px;
+}
+@media (min-width: 1600px) {
+  .logo-brezgo{
+    width: 80px;
+    margin: 12px 0 0 0px;
+  }
 }
 :root {
   --color-is-1: #000;
   --color-is-2: #fff;
-  --color-is-3: yellow;
+  --color-is-3: #fff;
   --color-is-4: #d7effe;
   --color-is-5: #4285f4;
   --color-is-6: #073042;
@@ -620,17 +629,29 @@
 .cta--is-3 {
   background-color: transparent;
   color: #000;
-  font: 700 2.5rem/2.5rem 'Circe-Light', sans-serif;
-  letter-spacing: -0.0625rem;
+  font: 700 3.5rem/3.5rem 'Circe-Light', sans-serif;
   transition: color 0.3s linear;
 }
 .cta--is-3 > .cta__icon {
-  height: 24px;
+  height: 30px;
   margin-left: 8px;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
-  width: 24px;
+  width: 30px;
+  margin-bottom: 5px;
+}
+.header-default__primary-item .icon--s {
+  bottom: 40px;
+  left: 235px;
+  color: var(--color-is-1);
+  position: absolute;
+}
+.header-default__primary-item .icon--sv {
+  bottom: 10px;
+  left: 250px;
+  color: var(--color-is-1);
+  position: absolute;
 }
 .cta--is-3 > .cta__external {
   -webkit-transform: rotate(-45deg);
@@ -1110,7 +1131,7 @@
 }
 .header-default__primary-item .icon--svg {
   bottom: 6px;
-  color: var(--color-is-6);
+  color: var(--color-is-1);
   position: absolute;
 }
 .header-default__secondary {
@@ -3762,9 +3783,9 @@ body.theme--dark .hero-devices__image-1 {
 .hero-devices--enterprise {
   color: #000;
 }
-.hero-devices--enterprise:before {
+/* .hero-devices--enterprise:before {
   background-color: #fdb813;
-}
+} */
 .hero-devices--enterprise .hero-devices__shape--2 {
   -webkit-transform: translate(-50px, 150vh);
   transform: translate(-50px, 150vh);
