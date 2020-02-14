@@ -169,21 +169,6 @@
   border-radius: 19px;
   background: #fff;
 }
-/* @media (min-width: 1600px){
-    .wt-phone-screen {
-      position: absolute;
-      top: 4px;
-      left: 6.5px;
-      height: 285px;
-      margin: 50;
-      width: 132px;
-      overflow: hidden;
-      -webkit-border-radius: 19px;
-      -moz-border-radius: 19px;
-      border-radius: 19px;
-      background: #fff;
-    }
-  } */
 @media (min-width: 768px) {
   .wt-phone-screen {
     top: 11.05px;
@@ -236,8 +221,6 @@
 }
 
 .wt-phone-scree-video {
-  /* height: 100%;
-  width: 100%; */
   line-height: 0;
   contain: content;
 }
@@ -273,7 +256,7 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../../img/sat.gif') 50% 50% no-repeat rgb(249,249,249);
+  background: url('https://acegif.com/wp-content/uploads/loading-7.gif') 50% 50% no-repeat #000;
   opacity: .8;
 }
 @media (min-width: 1600px) {
@@ -284,7 +267,7 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../../img/satisfecho.gif') 50% 50% no-repeat white;
+    background: url('https://acegif.com/wp-content/uploads/loading-7.gif') 50% 50% no-repeat #000;
     opacity: .8;
   }
 }
