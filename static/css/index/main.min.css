@@ -502,6 +502,9 @@ width: 0px;
 .corazon{
   width: 20px;
 }
+.cerebro{
+  width: 450px;
+}
 :root {
   --color-is-1: #000;
   --color-is-2: #fff;
@@ -538,7 +541,7 @@ width: 0px;
   --color-is-14: #fff;
   --color-is-15: #000;
   --color-is-16: url(https://i.ibb.co/0rccZDY/logo-brezgo-jade.png);
-  --color-is-17: #FFC700;
+  --color-is-17: #5214ff;
   background-color: #000;
 }
 .accordion__item-button,
