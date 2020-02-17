@@ -33,38 +33,7 @@
   font-style: normal;
 }
  
-  
-@font-face {
-  font-family: Quasimoda;
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_F_0b9f3.eot?21aa1c79482071e7bdea7d041a15385a");
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_F_0e0e6.eot?21aa1c79482071e7bdea7d041a15385a?#iefix") format("embedded-opentype"), url("../../../department.se/static/fonts/quasimoda/34C4A2_F_014f6.woff2?8160a248d2062367244532bef2c4223a") format("woff2"), url("../../../department.se/static/fonts/quasimoda/34C4A2_F_01754.woff?cec923fe9c1ee386b91abab2c45225b4") format("woff"), url("../../../department.se/static/fonts/quasimoda/34C4A2_F_0deda.ttf?20b2535536a98e0654e91e6b5db8f484") format("truetype");
-  font-weight: 600;
-  font-display: block;
-}
 
-@font-face {
-  font-family: Quasimoda;
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_4_037b9.eot?a21ecf9195e68a253fe6c135b776f6d2");
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_4_04dc1.eot?a21ecf9195e68a253fe6c135b776f6d2?#iefix") format("embedded-opentype"), url("../../../department.se/static/fonts/quasimoda/34C4A2_4_0a7bc.woff2?22d274e11d95f3ee520c4e93e231e4da") format("woff2"), url("../../../department.se/static/fonts/quasimoda/34C4A2_4_0a503.woff?ffd11a5375e7b5e125dc7e2e19d3766e") format("woff"), url("../../../department.se/static/fonts/quasimoda/34C4A2_4_001c6.ttf?6f0bc2ae59306cab42acd4115d78ecdd") format("truetype");
-  font-weight: 800;
-  font-display: block;
-}
-
-@font-face {
-  font-family: Quasimoda;
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_11_08123.eot?7439ae02e0bac9a10beca533cfa25c4a");
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_11_0597d.eot?7439ae02e0bac9a10beca533cfa25c4a?#iefix") format("embedded-opentype"), url("../../../department.se/static/fonts/quasimoda/34C4A2_11_01a77.woff2?29d5bc3dcddbde52ef3649322385cb55") format("woff2"), url("../../../department.se/static/fonts/quasimoda/34C4A2_11_02336.woff?1184d0e39278b5b152e579693280acbc") format("woff"), url("../../../department.se/static/fonts/quasimoda/34C4A2_11_06154.ttf?68794501371798cc80dffb9ba6bf4530") format("truetype");
-  font-weight: 500;
-  font-display: block;
-}
-
-@font-face {
-  font-family: Quasimoda;
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_D_0fee1.eot?065738e86dbbadb9adbcae07df4bfe74");
-  src: url("../../../department.se/static/fonts/quasimoda/34C4A2_D_09e0e.eot?065738e86dbbadb9adbcae07df4bfe74?#iefix") format("embedded-opentype"), url("../../../department.se/static/fonts/quasimoda/34C4A2_D_0ecf2.woff2?7d94238666ffaaa201a8bb12c2778429") format("woff2"), url("../../../department.se/static/fonts/quasimoda/34C4A2_D_0e021.woff?1b9d72995d40a6f788b0eb2ab3418e02") format("woff"), url("../../../department.se/static/fonts/quasimoda/34C4A2_D_02699.ttf?c7138fe6919961983e20dd1a984cd226") format("truetype");
-  font-weight: 300;
-  font-display: block;
-}
 /* phone simulator */
 .phone {
   border: 40px solid var(--color-is-1);
