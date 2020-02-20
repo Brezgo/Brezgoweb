@@ -454,7 +454,7 @@ width: 0px;
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('/static/video/carga.mp4') 50% 50% no-repeat #000;
+  background: url('https://media1.tenor.com/images/3a0c9909b542717ce9f651d07c4d4592/tenor.gif?itemid=8985245') 50% 50% no-repeat #fff;
   opacity: .8;
 }
 @media (min-width: 1600px) {
@@ -465,11 +465,12 @@ width: 0px;
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('/static/video/carga.mp4') 50% 50% no-repeat #000;
+    background: url('https://media1.tenor.com/images/3a0c9909b542717ce9f651d07c4d4592/tenor.gif?itemid=8985245') 50% 50% no-repeat #fff;
     opacity: .8;
   }
 }
  
+
 .logo-brezgo{
   width: 70px;
   margin: 15px 0 0 0px;
