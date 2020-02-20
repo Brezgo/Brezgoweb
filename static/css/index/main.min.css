@@ -3460,7 +3460,7 @@ body.theme--dark .content-dark__image--light {
   max-width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
-  width: unset;
+  width: 350px;
 }
 .content-multimedia--full-bleed .content-multimedia__video {
   width: 411px;
@@ -5121,7 +5121,7 @@ main:after {
     transform: translateX(-12%);
   }
   .content-dark__image img {
-    width: 850px;
+    width: 650px;
   }
   .content-horizontal {
     grid-template-rows: 160px auto auto auto 160px;
