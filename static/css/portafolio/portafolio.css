@@ -167,7 +167,7 @@
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-family: swiper-icons;
+  font-family: 'Circe-Light', sans-serif;
   font-size: var(--swiper-navigation-size);
   text-transform: none !important;
 }
@@ -751,7 +751,7 @@ template {
 .fullbleed-image .caption,
 .portrait-image-wrapper .portrait-image .caption,
 .square-image-wrapper .square-image .caption {
-  font-family: Metric-Regular, sans-serif;
+  font-family: 'Circe-Light', sans-serif;
   font-size: 12px;
   line-height: 1.3;
 }
@@ -894,7 +894,7 @@ body {
 .font-l,
 .page-header .header-sub,
 h2 {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -935,7 +935,7 @@ h2 {
 }
 .font-l-thumbnail,
 .projects .project .project-details .project-title {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 20px;
   line-height: 1.3;
@@ -955,7 +955,7 @@ h2 {
 }
 #contact-container h2,
 .font-l-contact {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -973,7 +973,7 @@ h2 {
 }
 .font-xl,
 footer ul.main-nav {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 22px;
   line-height: 47px;
@@ -994,7 +994,7 @@ footer ul.main-nav {
 }
 .font-xl-blockquote,
 .text blockquote {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 22px;
   line-height: 1.6;
@@ -1013,7 +1013,7 @@ footer ul.main-nav {
 }
 .font-xl-text-nav,
 .top-nav {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 22px;
   line-height: 1.4;
@@ -1039,7 +1039,7 @@ footer ul.main-nav {
 }
 .bottom-nav,
 .font-xxl {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 20px;
   line-height: 1.4;
@@ -1064,7 +1064,7 @@ footer ul.main-nav {
 }
 .font-xxxl,
 h1 {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   letter-spacing: -0.03em;
   font-size: 32px;
   line-height: 1.3;
@@ -1084,7 +1084,7 @@ h1 {
 .font-xxxl-hero,
 .hero-nav .copy,
 .nav-overlay-menu {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   font-size: 24px;
   line-height: 1.3;
 }
@@ -1136,7 +1136,7 @@ h6 {
 }
 b,
 strong {
-  font-family: Metric-Regular, sans-serif;
+  font-family: 'Circe-Light', sans-serif;
 }
 hr {
   border-color: hsla(0, 0%, 85%, 0.2);
@@ -3968,7 +3968,7 @@ body.dark .canvas-landscape-video-item video {
 }
 body.dark .canvas-item-details {
   bottom: 0;
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   left: 0;
   opacity: 0;
   position: absolute;
@@ -4081,7 +4081,7 @@ body.dark .canvas-intro-hero {
   }
 }
 body.dark .canvas-intro-hero-prefix {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
 }
 body.dark .canvas-intro-hero-suffixes {
   -webkit-box-flex: 1;
@@ -4090,7 +4090,7 @@ body.dark .canvas-intro-hero-suffixes {
   position: relative;
 }
 body.dark .canvas-intro-hero-suffix {
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   position: absolute;
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -4124,7 +4124,7 @@ body.dark .canvas-intro-detail-text {
   -webkit-transition-delay: 0.1s;
   -o-transition-delay: 0.1s;
   transition-delay: 0.1s;
-  font-family: GalaxieCopernicus-Book, serif;
+  font-family: 'Circe-Light', sans-serif;
   max-width: 650px;
 }
 @media (max-width: 640px) {
