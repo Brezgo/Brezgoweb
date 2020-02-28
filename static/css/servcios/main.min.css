@@ -592,6 +592,7 @@
   color: #000;
   font: 700 3.5rem/3.5rem 'Circe-Light', sans-serif;
   transition: color 0.3s linear;
+  font-weight: inherit;
 }
 .cta--is-3 > .cta__icon {
   height: 30px;
@@ -3866,7 +3867,7 @@ body.theme--dark .hero-devices__image-1 {
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-4 {
     -webkit-transform: translate3d( 20%, calc((var(--scroll-position) * -0.25) + -100px), 0 );
-    transform: translate3d( 20%, calc((var(--scroll-position) * -0.25) + -100px), 0 );
+    transform: translate3d( 20%, calc((var(--scroll-position) * -0.25) + -180px), 0 );
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-5 {
