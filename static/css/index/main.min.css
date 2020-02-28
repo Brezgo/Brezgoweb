@@ -8244,9 +8244,8 @@ img.quote-author__photo {
   }
   .top-part__title {
     margin-bottom: 1.5vw;
-    font-size: 4vw;
     margin: -100px 0 50px;
-    font-size: 5.5rem;
+    font-size: 5vw;
     line-height: 5.5rem;
   }
   /* .top-part__description {
