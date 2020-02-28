@@ -895,7 +895,6 @@ body {
 .page-header .header-sub,
 h2 {
   font-family: GalaxieCopernicus-Book, serif;
-  letter-spacing: -0.03em;
   font-size: 20px;
   line-height: 1.6;
 }
@@ -1148,10 +1147,7 @@ hr {
     margin: 42px 0;
   }
 }
-h2,
-p {
-  margin: 0 0 12px;
-}
+
 @media (min-width: 1024px) {
   h2,
   p {
@@ -1189,6 +1185,9 @@ body.dark h4,
 body.dark h5,
 body.dark h6 {
   color: #fff !important;
+  font-family: 'Circe-Light', sans-serif;
+  font-size: 5vw;
+  line-height: 5.5rem;
 }
 body.dark a {
   -webkit-transition: color 0.3s ease-in;
@@ -2027,7 +2026,8 @@ body.is-touch .video-player .poster-image {
 }
 .text h2,
 .text p {
-  margin: 0 0 12px;
+  line-height: 2rem;
+  font-size: 18px;
 }
 .text p:last-of-type {
   margin: 0;
@@ -4932,6 +4932,7 @@ body.dark footer div.disclaimer {
 .home .text {
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: 'Circe-Light', sans-serif;
 }
 @media (min-width: 768px) {
   .home .text {
@@ -4945,6 +4946,7 @@ body.dark footer div.disclaimer {
   .home .text {
     margin-top: 100px;
     margin-bottom: 90px;
+    font-family: 'Circe-Light', sans-serif;
   }
 }
 body.dark #page-container {
