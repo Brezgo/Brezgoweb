@@ -4948,7 +4948,7 @@ body.dark footer div.disclaimer {
   }
 }
 body.dark #page-container {
-  padding-top: 0;
+  padding-top: 30px;
 }
 body.template-auxiliary .auxiliary-container {
   background-color: #f6f6f6;
