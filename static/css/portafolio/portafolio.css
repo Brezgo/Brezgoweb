@@ -2872,6 +2872,7 @@ body.dark .related h3.related-title {
 }
 .page-nav p {
   margin: 0;
+  font-family: 'Circe-Light', sans-serif;
 }
 .top-nav {
   padding-top: 110px;
@@ -4909,6 +4910,7 @@ body.dark footer ul.sub-nav a {
 }
 body.dark footer div.disclaimer {
   color: #a5a5a5;
+  font-family: 'Circe-Light', sans-serif;
 }
 .blog #page-container,
 .category #page-container,
