@@ -3427,6 +3427,7 @@ body.theme--dark .content-dark__image--light {
 .content-multimedia__media-wrapper video { 
   max-width: 100%;
   border-radius: 20px;
+  width: 270px;
 }
 .content-multimedia__image {
   display: -webkit-box;
