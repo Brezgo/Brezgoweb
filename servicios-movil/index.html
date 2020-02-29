@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <script>
     window.dataLayer = window.dataLayer || [];
   </script>
   <meta charset="utf-8">
-  <title>Servicios de Desarrollo Web, Movil, Análisis, Diseño, UI & UX | Brezgo</title>
+  <title>Soluciones de Desarrollo Web, Movil, Análisis, Diseño, UI & UX | Brezgo</title>
   <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@brezgo">
   <meta name="twitter:title" content="brezgo">
-  <meta name="twitter:description"
-    content="Servicios de Desarrollo Web, Movil, Análisis, Diseño, UI & UX.">
-  <meta name="twitter:image"
-    content="https://i.ibb.co/2vZL2bB/twiter.png">
+  <meta name="twitter:description" content="Soluciones para Empresas, Desarrollo Web, Movil, Análisis, Diseño, UI & UX">
+  <meta name="twitter:image" content="https://www.brezgo.com">
   <meta name="twitter:url" content="https://www.brezgo.com">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Brezgo | Home">
-  <meta property="og:description"
-    content="Servicios de Desarrollo Web, Movil, Análisis, Diseño, UI & UX.">
+  <meta property="og:description" content="Soluciones para Empresas, Desarrollo Web, Movil, Análisis, Diseño, UI & UX">
   <meta property="og:url" content="https://www.brezgo.com">
-  <meta property="og:image"
-    content="https://i.ibb.co/2vZL2bB/twiter.png">
+  <meta property="og:image" content="https://www.brezgo.com">
   <meta property="og:site_name" content="Brezgo">
   <meta property="og:locale" content="en_ES">
   <meta name="theme-color" content="#000">
   <link href="/" rel="shortcut icon">
   <link href="index.html" rel="canonical">
-  </script>
+  <!-- style -->
   <style>
     :root {
       --color-is-1: #000;
@@ -66,7 +63,7 @@
     }
 
     .theme-base {
-      transition: background-color .3s ease-in
+      transition: background-color .3s ease-in;
     }
 
     .is-1,
@@ -87,8 +84,9 @@
     .is-6,
     .is-7,
     .is-eyebrow {
-      color: #fff;
-      font-family: 'Circe-Light', sans-serif
+      color: #000;
+      font-family: 'Circe-Light', sans-serif;
+      font-weight: inherit;
     }
 
     .is-eyebrow {
@@ -98,7 +96,7 @@
     .is-copy,
     .is-copy-l,
     .is-copy-m {
-      color: #fff;
+      color: #000;
       font-family: 'Circe-Light', sans-serif;
       font-weight: 400
     }
@@ -122,15 +120,11 @@
     }
 
     .is-2 {
-      font-size: 3.5rem;
+      font-size: 3.3rem;
       line-height: 3.5rem
     }
 
-    .is-2,
-    .is-3 {
-      letter-spacing: -.0625rem;
-      color: #000;
-    }
+
 
     .is-3 {
       font-size: 3rem;
@@ -166,13 +160,12 @@
       font-size: 1rem;
       font-weight: 500;
       letter-spacing: -.03125rem;
-      margin-bottom: 16px;
-      color: #000;
+      margin-bottom: 16px
     }
 
     .is-3-to-2 {
       color: #000;
-      font-family: 'Circe-Light', sans-serif;
+      font-family: "Android Euclid", Helvetica, Arial, sans-serif;
       font-size: 3rem;
       font-weight: 700;
       letter-spacing: -.0625rem;
@@ -188,8 +181,7 @@
 
     .is-copy-m {
       font-size: 1.125rem;
-      line-height: 2rem;
-      color: #000;
+      line-height: 2rem
     }
 
     .is-copy {
@@ -284,8 +276,7 @@
     }
 
     p:last-child {
-      margin-bottom: 0;
-      color: #fff;
+      margin-bottom: 0
     }
 
     *,
@@ -926,7 +917,7 @@
     .cta {
       cursor: pointer;
       display: inline-block;
-      font-family: 'Circe-Light', sans-serif;
+      font-family: "Android Euclid", Helvetica, Arial, sans-serif;
       text-decoration: none;
       width: auto
     }
@@ -999,8 +990,7 @@
     .cta--is-3 {
       background-color: transparent;
       color: #000;
-      font: 700 2.5rem/2.5rem 'Circe-Light', sans-serif;
-      letter-spacing: -.0625rem;
+      font: 700 2.5rem/2.5rem "Android Euclid", Helvetica, Arial, sans-serif;
       transition: color .3s linear
     }
 
@@ -1041,7 +1031,7 @@
     .cta--is-4 {
       background-color: transparent;
       color: #000;
-      font: 400 1rem/1.5rem 'Circe-Light', sans-serif;
+      font: 400 1rem/1.5rem "Roboto", Helvetica, Arial, sans-serif;
       transition: all .3s linear
     }
 
@@ -1395,7 +1385,7 @@
 
     .header-default__secondary-item>.cta {
       color: var(--color-is-1);
-      font: 400 .875rem/1.5rem 'Circe-Light', sans-serif;
+      font: 400 .875rem/1.5rem "Android Euclid", Helvetica, Arial, sans-serif;
       white-space: normal
     }
 
@@ -1452,7 +1442,7 @@
     }
 
     .footer-default {
-      font-family: 'Circe-Light', sans-serif;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
       padding-top: 60px;
       position: relative;
       z-index: 30
@@ -1514,7 +1504,7 @@
       color: var(--color-is-1);
       display: -webkit-box;
       display: flex;
-      font: 500 .75rem/1rem 'Circe-Light', sans-serif;
+      font: 500 .75rem/1rem "Android Euclid", Helvetica, Arial, sans-serif;
       -webkit-box-pack: justify;
       justify-content: space-between;
       letter-spacing: .0625rem;
@@ -1627,7 +1617,7 @@
 
     .footer-default__footnote {
       color: var(--color-is-1);
-      font: .75rem/1.7 'Circe-Light', sans-serif;
+      font: .75rem/1.7 "Roboto", Helvetica, Arial, sans-serif;
       margin: 16px 0 0;
       width: 80%
     }
@@ -1735,7 +1725,7 @@
       border-bottom: 1px solid var(--color-is-1);
       border-radius: 0;
       color: var(--color-is-1);
-      font-family: 'Circe-Light', sans-serif;
+      font-family: "Android Euclid", Helvetica, Arial, sans-serif;
       height: 24px;
       margin: 0 13px;
       outline: none;
@@ -1783,7 +1773,7 @@
       box-sizing: content-box;
       color: var(--color-is-1);
       cursor: pointer;
-      font: 500 1rem/1.4 'Circe-Light', sans-serif;
+      font: 500 1rem/1.4 "Roboto", Helvetica, Arial, sans-serif;
       line-height: 1.5rem;
       margin: 0 8px 0 5px;
       max-width: 100px;
@@ -1876,13 +1866,11 @@
 
       .is-1 {
         font-size: 6.75rem;
-        letter-spacing: -.1875rem;
         line-height: 6.75rem
       }
 
       .is-2 {
         font-size: 4.5rem;
-        letter-spacing: -.125rem;
         line-height: 4.5rem
       }
 
@@ -1908,9 +1896,7 @@
 
       .is-7 {
         font-size: 1.25rem;
-        margin-bottom: 24px;
-        color: #000;
-        
+        margin-bottom: 24px
       }
 
       .is-3-to-2 {
@@ -1923,8 +1909,7 @@
       .is-copy-m {
         font-size: 1.25rem;
         letter-spacing: 0;
-        line-height: 2rem;
-        color: #000;
+        line-height: 2rem
       }
 
       .is-eyebrow {
@@ -1980,11 +1965,11 @@
       }
 
       .cta--is-3 {
-        font: 700 3rem/3rem 'Circe-Light', sans-serif
+        font: 700 3rem/3rem "Android Euclid", Helvetica, Arial, sans-serif
       }
 
       .cta--is-4 {
-        font: 400 1rem/1.5rem 'Circe-Light', sans-serif
+        font: 400 1rem/1.5rem "Roboto", Helvetica, Arial, sans-serif
       }
 
       .header-default__drawer {
@@ -2085,12 +2070,11 @@
       .is-2 {
         font-size: 5.5rem;
         line-height: 5.5rem;
-        color: #000;
+        font-weight: 700;
       }
 
       .is-3 {
         font-size: 4.5rem;
-        letter-spacing: -.125rem;
         line-height: 4.5rem
       }
 
@@ -2212,7 +2196,7 @@
       }
 
       .cta--is-3 {
-        font: 500 .875rem/1.5rem 'Circe-Light', sans-serif;
+        font: 500 .875rem/1.5rem "Android Euclid", Helvetica, Arial, sans-serif;
         letter-spacing: 0
       }
 
@@ -2221,7 +2205,7 @@
       }
 
       .cta--is-4 {
-        font: 400 1rem/1.5rem 'Circe-Light', sans-serif
+        font: 400 1rem/1.5rem "Roboto", Helvetica, Arial, sans-serif
       }
 
       .header-default__button,
@@ -2465,714 +2449,1029 @@
       }
     }
   </style>
-  <link rel="preload" href="../static/css/home/v2/main.min.css" as="style">
-  <link rel="stylesheet" href="../static/css/home/v2/main.min.css" media="print" onload="this.media='all'">
-  <noscript>
-    <link rel="stylesheet" href="../static/css/home/v2/main.min.css"></noscript>
   <style>
-    .background-shapes__3d8cc968b808ace512cf416cd0e3e148 {
-      grid-area: topleft;
-      display: none;
+    .header-default--enterprise {
+      --color-is-1: #000;
+      --color-is-6: #000;
+      background-color: #fff
+    }
+
+    .header-default--enterprise.header-default--fixed,
+    .header-default--enterprise.header-default--nav-open,
+    .header-default--enterprise.header-default--search-open {
+      --color-is-1: #000;
+      --color-is-6: #073042
+    }
+
+    .header-default--enterprise .header-default__wrapper {
+      background-color: #fff
+    }
+
+    .header-default--enterprise .header-default__grid {
+      box-shadow: inset 0 -1px 0 transparent;
+      transition: box-shadow .3s ease 1s
+    }
+
+    .header-subnav {
+      background: #fff;
+      left: 0;
+      overflow-x: scroll;
+      position: absolute;
+      top: 0;
+      -webkit-transform: translate3d(0, -100vh, 0);
+      transform: translate3d(0, -100vh, 0);
+      transition: -webkit-transform .3s ease;
+      transition: transform .3s ease;
+      transition: transform .3s ease, -webkit-transform .3s ease;
+      visibility: hidden;
+      width: 100%
+    }
+
+    .header-default--subnav-open .header-subnav {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      visibility: visible
+    }
+
+    .header-subnav__wrapper {
+      height: 100vh
+    }
+
+    .header-subnav__items {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      grid-column: 1/-1;
+      padding: 200px 0 150px;
+      width: 100%
+    }
+
+    .header-subnav__dropdown {
+      margin: 32px 0 0 14px
+    }
+
+    .header-subnav__toggle {
+      background: #fff;
+      position: relative;
+      z-index: 1
+    }
+
+    .header-subnav__toggle-wrapper {
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      display: -webkit-box;
+      display: flex;
+      grid-column: 1/-1;
+      height: 70px;
+      text-align: left;
+      width: 100%
+    }
+
+    .header-subnav__toggle-title {
+      font-size: 1rem;
+      grid-column: 1/4;
+      margin-bottom: 0;
+      pointer-events: none
+    }
+
+    .header-subnav__toggle-icon {
+      height: 10px;
+      margin-left: auto;
+      pointer-events: none;
+      width: 10px
+    }
+
+    .header-default--subnav-open .header-subnav__toggle-icon {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg)
+    }
+
+    .header-subnav .header-default__primary-item {
+      position: relative
+    }
+
+    .header-subnav .header-default__primary-item:focus .cta--is-1,
+    .header-subnav .header-default__primary-item:hover .cta--is-1 {
+      color: #3ddc84;
+      opacity: 1
+    }
+
+    .header-subnav .header-default__primary-item .cta--is-1 {
+      color: #fff;
+      height: 44px;
+      line-height: 2.75rem;
+      padding: 0 24px
+    }
+    .header-subnav .header-default__secondary-item {
+      margin-right: 0;
+      padding: 7px 26px;
+      position: relative
+    }
+
+    .header-subnav .header-default__secondary-item.header-default__item--active {
+      box-shadow: inset 4px 0 0 0;
+      left: -30px;
+      padding-left: 54px
+    }
+
+    .header-subnav .header-default__secondary-item .icon--svg {
+      bottom: 8px;
+      height: 16px;
+      width: 16px
+    }
+
+    .header-subnav .header-default__secondary-item>.cta {
+      letter-spacing: 0;
+      line-height: 1rem
+    }
+
+    .header-subnav .header-default__secondary-item:last-child {
+      margin-bottom: 0
+    }
+
+    main {
+      padding-top: 70px
     }
 
     @media only screen and (min-width:600px) {
-      .background-shapes__3d8cc968b808ace512cf416cd0e3e148 {
-        display: block;
-        height: 293px;
-        width: 293px;
-        transform: translate(-160px, 29px);
+      .header-subnav__toggle-title {
+        grid-column: 1/12
+      }
+
+      .header-subnav .header-default__secondary-item.header-default__item--active {
+        left: -46px;
+        padding-left: 70px
       }
     }
 
     @media only screen and (min-width:1024px) {
-      .background-shapes__3d8cc968b808ace512cf416cd0e3e148 {
-        height: 413px;
-        width: 413px;
-        transform: translate(-290px, 10px);
+      .header-default--enterprise .header-default__grid {
+        box-shadow: inset 0 -1px 0 transparent
+      }
+
+      .header-subnav {
+        overflow-x: visible;
+        position: static;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        transition: -webkit-transform .5s ease 1.2s;
+        transition: transform .5s ease 1.2s;
+        transition: transform .5s ease 1.2s, -webkit-transform .5s ease 1.2s;
+        visibility: visible
+      }
+
+      .header-subnav__wrapper {
+        height: 70px
+      }
+
+      .header-subnav__items {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        justify-content: flex-end;
+        padding: 0
+      }
+
+      .header-subnav__dropdown {
+        background: #fff;
+        box-shadow: -8px 8px 16px rgba(0, 0, 0, .1);
+        left: -26px;
+        margin: 0;
+        min-width: 140px;
+        opacity: 0;
+        padding: 20px 0;
+        position: absolute;
+        top: 69px;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        transition: all .2s ease;
+        visibility: hidden
+      }
+
+      .header-subnav__dropdown--open {
+        opacity: 1;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+        visibility: visible
+      }
+
+      .header-subnav__toggle {
+        display: none
+      }
+
+      .header-subnav .header-default__primary-item {
+        -webkit-box-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: flex
+      }
+
+      .header-subnav .header-default__secondary-item {
+        margin-bottom: 0
+      }
+
+      .header-subnav .header-default__secondary-item.header-default__item--active {
+        box-shadow: none;
+        left: 0;
+        padding-left: 26px
       }
     }
 
-    @media only screen and (min-width:1440px) {
-      .background-shapes__3d8cc968b808ace512cf416cd0e3e148 {
-        transform: translate(-300px, 17px);
+    @media only screen and (max-width:1023px) {
+      .header-subnav__toggle {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        transition: -webkit-transform .4s ease-in 1s;
+        transition: transform .4s ease-in 1s;
+        transition: transform .4s ease-in 1s, -webkit-transform .4s ease-in 1s
+      }
+
+      .header-subnav .header-default__primary-item.header-subnav__dropdown-wrapper {
+        box-shadow: none
+      }
+
+      .header-subnav .header-default__primary-item.header-subnav__dropdown-wrapper:focus>.cta,
+      .header-subnav .header-default__primary-item.header-subnav__dropdown-wrapper:hover>.cta {
+        opacity: 1
+      }
+
+      .header-default--subnav-open {
+        -webkit-transform: translateZ(0) !important;
+        transform: translateZ(0) !important
       }
     }
+  </style>
 
-    .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-      border-color: #d7effe;
+  <!-- link -->
+  <link rel="preload" href="../static/css/servcios/main.min.css" as="style">
+  <link rel="stylesheet" href="../static/css/servcios/main.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="../static/css/servcios/main.min.css"></noscript>
+
+  <!-- style -->
+  <style>
+    .background-shapes__f574a935ad6c28e536627203c17706c9 {
+      display: block;
       grid-area: topright;
-      transform: translate(-480px, 0);
-      height: 343px;
-      width: 590px;
+      justify-self: flex-end;
+      height: 360px;
+      transform: translate(160px, 0px);
+      width: 360px;
     }
 
     @media only screen and (min-width:600px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        border-width: 20px;
-        grid-area: topleft;
-        transform: translate(-420px, 0);
-        height: 600px;
-        width: 1100px;
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        height: 435px;
+        transform: translate(240px, -30px);
+        width: 435px;
       }
     }
 
     @media only screen and (min-width:1024px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        transform: translate(-530px, 0);
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        height: 688px;
+        grid-area: topleft;
+        transform: translate(10px, 40px);
+        width: 688px;
       }
     }
 
     @media only screen and (min-width:1280px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        transform: translate(-380px, 0);
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        transform: translate(-70px, 60px);
       }
     }
 
     @media only screen and (min-width:1440px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        transform: translate(-290px, 0);
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        transform: translate(-143px, 45px);
       }
     }
 
     @media only screen and (min-width:1800px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        transform: translate(-110px, 0);
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        transform: translate(-70px, 49px);
       }
     }
 
     @media only screen and (min-width:2500px) {
-      .background-shapes__65afc2c42340caa47768aafe1fa99b86 {
-        transform: translate(270px, 0);
+      .background-shapes__f574a935ad6c28e536627203c17706c9 {
+        transform: translate(60px, 48px);
       }
     }
 
-    .background-shapes__134bbf6e28959456865aa5fa5b611abb {
-      grid-area: topright;
-      height: 448px;
-      justify-self: flex-end;
-      width: 842px;
+    .background-shapes__7b14b52fac3386b6a84ef5c2430c8e5c {
+      grid-area: topleft;
+      position: absolute;
     }
 
     @media only screen and (min-width:600px) {
-      .background-shapes__134bbf6e28959456865aa5fa5b611abb {
+      .background-shapes__7b14b52fac3386b6a84ef5c2430c8e5c {
         border-width: 20px;
-        grid-area: topright;
-        height: 671px;
-        justify-self: flex-end;
-        transform: translateX(-152px);
-        width: 1200px;
+        max-height: 575px;
+        transform: translate(-5%, 10%);
       }
     }
 
     @media only screen and (min-width:1024px) {
-      .background-shapes__134bbf6e28959456865aa5fa5b611abb {
-        grid-area: topcenter;
-        height: 854px;
-        justify-self: flex-end;
-        transform: translateX(-118px);
-        width: 1600px;
+      .background-shapes__7b14b52fac3386b6a84ef5c2430c8e5c {
+        max-height: 615px;
+        transform: translate(-3%, 15%);
+      }
+    }
+
+    .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+      grid-area: topleft;
+      display: block;
+      height: 500px;
+      width: 500px;
+      transform: translate(-26%, 20%);
+    }
+
+    @media only screen and (min-width:600px) {
+      .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+        display: block;
+        height: 448px;
+        width: 448px;
+        transform: translate(-23%, 25%);
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+      .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+        height: 816px;
+        width: 816px;
+        transform: translate(-37%, 16%);
+      }
+    }
+
+    .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+      grid-area: topleft;
+      display: block;
+      height: 500px;
+      width: 500px;
+      transform: translate(-26%, 20%);
+    }
+
+    @media only screen and (min-width:600px) {
+      .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+        display: block;
+        height: 448px;
+        width: 448px;
+        transform: translate(-23%, 25%);
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+      .background-shapes__9830aeeef4f31588b1e19e4f318328a0 {
+        height: 816px;
+        width: 816px;
+        transform: translate(-37%, 16%);
+      }
+    }
+
+    .background-shapes__83eb6151387b1e2f59091542f160313b {
+      align-self: end;
+      grid-area: middleright;
+      height: 210px;
+      transform: translate3d(-215px, 10px, 0);
+      width: 542px;
+    }
+
+    @media only screen and (min-width:600px) {
+      .background-shapes__83eb6151387b1e2f59091542f160313b {
+        border-width: 20px;
+        height: 463px;
+        width: 1058px;
+        transform: translate3d(-325px, 120px, 0);
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+      .background-shapes__83eb6151387b1e2f59091542f160313b {
+        grid-area: topright;
+        height: 563px;
+        transform: translate3d(-390px, 390px, 0);
+        width: 1558px;
+      }
+    }
+
+    .background-shapes__83eb6151387b1e2f59091542f160313b {
+      align-self: end;
+      grid-area: middleright;
+      height: 210px;
+      transform: translate3d(-215px, 10px, 0);
+      width: 542px;
+    }
+
+    @media only screen and (min-width:600px) {
+      .background-shapes__83eb6151387b1e2f59091542f160313b {
+        border-width: 20px;
+        height: 463px;
+        width: 1058px;
+        transform: translate3d(-325px, 120px, 0);
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+      .background-shapes__83eb6151387b1e2f59091542f160313b {
+        grid-area: topright;
+        height: 563px;
+        transform: translate3d(-390px, 390px, 0);
+        width: 1558px;
+      }
+    }
+
+    .background-shapes__3e48976bba139afe39b195f3a28a7463 {
+      grid-area: topleft;
+      height: 627px;
+      width: 842px;
+      transform: translateX(-430px);
+    }
+
+    @media only screen and (min-width:600px) {
+      .background-shapes__3e48976bba139afe39b195f3a28a7463 {
+        border-width: 20px;
+        height: 742px;
+        transform: translate(-105vw, 8vh);
+        width: 200vw;
+      }
+    }
+
+    @media only screen and (min-width:1024px) {
+      .background-shapes__3e48976bba139afe39b195f3a28a7463 {
+        height: 742px;
+        transform: translate(-50vw, 8vh);
+        width: 100vw;
+      }
+    }
+
+    @media only screen and (min-width:1440px) {
+      .background-shapes__3e48976bba139afe39b195f3a28a7463 {
+        height: 742px;
+        transform: translateX(-760px);
+        width: 1497px;
       }
     }
   </style>
-  <meta name="title" content="Android | The platform pushing what’s possible">
-  <meta name="description"
-    content="Find the latest and greatest on the world’s most powerful mobile platform. Browse devices, explore resources and learn about the latest updates.">
-  <style data-c-focus-control></style>
+
+  <meta name="title" content="Soluciones para Empresas | Brezgo">
+  <meta name="description" content="Soluciones para Empresas, Desarrollo Web, Movil, Análisis, Diseño, UI & UX">
   <link rel="stylesheet" href="../static/css/normalize.css">
   <link rel="stylesheet" href="../static/css/boostrap.css">
   <link rel="stylesheet" href="../static/css/exyte.css">
 </head>
-<!-- initial -->
+
 <body>
-  
-<!-- <div class="loader"></div> -->
-
-<!-- section header-->
-<header data-android-component="header-default" data-android-component-config="{'isSticky': 1}"
-class="header-default header-default--transparent">
-<div class="header-default__wrapper">
-  <div class="header-default__grid grid">
-    <div class="header-default__logo-container">
-      <a class="header-default__logo js-logo" href="index.html"
-        data-g-config="{'eventLabel': '', 'moduleName': 'header', 'linkUrl': '/', 'eventCategory': 'navigation', 'title': 'logo'}">
-        <span class="visually-hidden"> Brezgo </span>
-        <!-- <img class="logo-brezgo" src="https://i.ibb.co/x3cmQMH/Artboard-1post.png" alt="logo-brezgo"> -->
-          <use xlink:href="#android-logo"></use>
-        </svg>
-      </a>
-    </div>       
-    <nav class="header-default__bar">
-      <ul class="header-default__primary">
-        <li class="header-default__primary-item" style="--item-order: 1">
-          <a href="../index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}">Home.
-            <svg class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <li class="header-default__primary-item " style="--item-order: 2">
-          <a href="../servicios/index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
-            <svg class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <li class="header-default__primary-item " style="--item-order: 3">
-          <a href="../portafolio/index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
-            <svg class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <li class="header-default__primary-item header-default__item--active" style="--item-order: 4">
-          <a href="./equipo/index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
-              class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <li class="header-default__primary-item " style="--item-order: 5">
-          <a href="" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
-              class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <li class="header-default__primary-item " style="--item-order: 6">
-          <a href="" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contactanos.<svg
-              class="icon--svg cta__icon" aria-hidden="true">
-              <use xlink:href="#ico-arrow-large"></use>
-            </svg></a>
-        </li>
-        <!-- <li class="social-nav__item" style="--item-order: 7">
-          <a target="_ blank" href="https://instagram.com/brezgo" rel="nofollow">
-
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik02LjY2NyAxMGEzLjMzMyAzLjMzMyAwIDEgMSA2LjY2NyAwIDMuMzMzIDMuMzMzIDAgMCAxLTYuNjY3IDBtLTEuODAyIDBhNS4xMzUgNS4xMzUgMCAxIDAgMTAuMjcgMCA1LjEzNSA1LjEzNSAwIDAgMC0xMC4yNyAwbTkuMjc0LTUuMzM4YTEuMiAxLjIgMCAxIDAgMS4yLTEuMiAxLjIgMS4yIDAgMCAwLTEuMiAxLjJNNS45NiAxOC4xNGMtLjk3NS0uMDQ1LTEuNTA1LS4yMDctMS44NTctLjM0NGEzLjEwOCAzLjEwOCAwIDAgMS0xLjE1LS43NDggMy4wODUgMy4wODUgMCAwIDEtLjc0OC0xLjE1Yy0uMTM3LS4zNTItLjMtLjg4Mi0uMzQ0LTEuODU3LS4wNDktMS4wNTQtLjA1OC0xLjM3LS4wNTgtNC4wNCAwLTIuNjcxLjAxLTIuOTg3LjA1OC00LjA0Mi4wNDQtLjk3NS4yMDgtMS41MDQuMzQ0LTEuODU3LjE4Mi0uNDY3LjM5OC0uOC43NDgtMS4xNS4zNS0uMzUuNjgyLS41NjcgMS4xNS0uNzQ4LjM1Mi0uMTM4Ljg4Mi0uMyAxLjg1Ny0uMzQ0IDEuMDU0LS4wNDkgMS4zNzEtLjA1OCA0LjA0LS4wNTggMi42NyAwIDIuOTg3LjAxIDQuMDQyLjA1OC45NzUuMDQ0IDEuNTA0LjIwOCAxLjg1Ny4zNDQuNDY3LjE4LjguMzk4IDEuMTUuNzQ4LjM1LjM1LjU2Ni42ODMuNzQ4IDEuMTUuMTM3LjM1Mi4zLjg4Mi4zNDQgMS44NTcuMDQ5IDEuMDU1LjA1OCAxLjM3LjA1OCA0LjA0MSAwIDIuNjctLjAxIDIuOTg3LS4wNTggNC4wNDItLjA0NC45NzQtLjIwNyAxLjUwNC0uMzQ0IDEuODU3LS4xODIuNDY2LS4zOTguOC0uNzQ4IDEuMTQ5LS4zNS4zNS0uNjgzLjU2Ni0xLjE1Ljc0OC0uMzUyLjEzNy0uODgyLjMtMS44NTcuMzQ0LTEuMDU0LjA0OC0xLjM3MS4wNTgtNC4wNDIuMDU4LTIuNjcgMC0yLjk4Ni0uMDEtNC4wNC0uMDU4TTUuODc3LjA2QzQuODEzLjExIDQuMDg1LjI3OSAzLjQ1LjUyNkE0LjkwOCA0LjkwOCAwIDAgMCAxLjY4IDEuNjc4IDQuODgzIDQuODgzIDAgMCAwIC41MjUgMy40NUMuMjc4IDQuMDg2LjExIDQuODEzLjA2MSA1Ljg3Ny4wMSA2Ljk0MyAwIDcuMjg0IDAgMTBzLjAxMSAzLjA1Ny4wNiA0LjEyM2MuMDQ5IDEuMDY0LjIxOCAxLjc5MS40NjUgMi40MjdhNC44ODggNC44ODggMCAwIDAgMS4xNTQgMS43NzIgNC45MTQgNC45MTQgMCAwIDAgMS43NzEgMS4xNTNjLjYzNy4yNDcgMS4zNjMuNDE2IDIuNDI3LjQ2NEM2Ljk0NCAxOS45ODggNy4yODUgMjAgMTAgMjBjMi43MTYgMCAzLjA1Ny0uMDExIDQuMTIzLS4wNiAxLjA2NS0uMDQ5IDEuNzkyLS4yMTggMi40MjgtLjQ2NWE0LjkxOCA0LjkxOCAwIDAgMCAxLjc3MS0xLjE1MyA0Ljg5OSA0Ljg5OSAwIDAgMCAxLjE1NC0xLjc3MmMuMjQ3LS42MzYuNDE3LTEuMzYzLjQ2NC0yLjQyNy4wNDktMS4wNjcuMDYtMS40MDcuMDYtNC4xMjNzLS4wMTEtMy4wNTctLjA2LTQuMTIzYy0uMDQ4LTEuMDY0LS4yMTctMS43OTItLjQ2NC0yLjQyN2E0LjkxOCA0LjkxOCAwIDAgMC0xLjE1NC0xLjc3MiA0Ljg5MyA0Ljg5MyAwIDAgMC0xLjc3LTEuMTUzYy0uNjM3LS4yNDctMS4zNjQtLjQxNy0yLjQyOC0uNDY0QzEzLjA1OC4wMSAxMi43MTcgMCAxMC4wMDIgMCA3LjI4NiAwIDYuOTQ1LjAxMSA1Ljg3OC4wNiIvPg0KPC9zdmc+DQo=" alt="Open Exyte's Instagram in new tab">
+<!-- Header -->
+  <header data-android-component="header-default" data-android-component-config="{'isSticky': 1}"
+    class="header-default header-default--transparent header-default--enterprise">
+    <div class="header-default__wrapper">
+      <div class="header-default__grid grid">
+        <div class="header-default__logo-container">
+          <a class="header-default__logo js-logo" href="index.html"
+            data-g-config="{'eventLabel': '', 'moduleName': 'header', 'linkUrl': 'https://www.brezgo.com', 'eventCategory': 'navigation', 'title': 'logo'}">
+            <span class="visually-hidden">Brezgo</span>
+            <!-- <img class="logo-brezgo" src="https://i.ibb.co/x3cmQMH/Artboard-1post.png" alt="logo-brezgo"> -->
+            <!-- <svg class="icon--svg header-default__logo-icon" aria-hidden="true"> -->
+            </svg>
           </a>
-        </li>
-        <li class="social-nav__item" style="--item-order: 8">
-          <a target="_ blank" href="https://twitter.com/brezgo"  rel="nofollow">
+        </div>
+        <nav class="header-default__bar">
+          <ul class="header-default__primary">
+            <li class="header-default__primary-item " style="--item-order: 1">
+              <a href="../index.html" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}">Home.
+                <svg class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <li class="header-default__primary-item header-default__item--active" style="--item-order: 2">
+              <a href="" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
+                <svg class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <li class="header-default__primary-item " style="--item-order: 3">
+              <a href="../portafolio/index.html" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
+                <svg class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <li class="header-default__primary-item " style="--item-order: 4">
+              <a href="../equipo/index.html" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
+                  class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <li class="header-default__primary-item " style="--item-order: 5">
+              <a href="" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
+                  class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <li class="header-default__primary-item " style="--item-order: 6">
+              <a href="" class="cta cta--is-3"
+                data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contactanos.<svg
+                  class="icon--svg cta__icon" aria-hidden="true">
+                  <use xlink:href="#ico-arrow-large"></use>
+                </svg></a>
+            </li>
+            <!-- <li class="social-nav__item" style="--item-order: 7">
+              <a target="_ blank" href="https://instagram.com/brezgo" rel="nofollow">
 
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTE2LjMzMy4wMDRWMGgxLjE0NmwuNDIuMDg0Yy4yOC4wNTYuNTMzLjEyNy43Ni4yMTZhNS4zNSA1LjM1IDAgMCAxIC42NjEuMzExYy4yMTMuMTE4LjQwNi4yMzguNTguMzZhMy41OSAzLjU5IDAgMCAxIC40NjMuMzg3Yy4xMzYuMTM4LjM0Ny4xNzIuNjMzLjEwN2E4LjY3IDguNjcgMCAwIDAgLjkyNi0uMjc4bC45OC0uNC41OS0uMjgyLjExLS4wNjcuMDAzLS4wMDYuMDktLjA0NC4wMDMtLjAwNy4wMTMtLjAxLjAwNC0uMDA3LjAyMi0uMDA3LjAyMi0uMDA0LS4wMDQuMDMzLS4wMDcuMDMzLS4wMjIuMDY3LS4wMjIuMDQ0LS4wMS4wMzNjLS4wMS4wMy0uMDE3LjA2LS4wMjIuMDktLjAwNy4wMzctLjA3Ny4xODQtLjIxLjQ0M3MtLjI5OC41MjItLjQ5Ni43OS0uMzc3LjQ2Ny0uNTMzLjYwM2wtLjMxNi4yOWEuOTUuOTUgMCAwIDEtLjE4Ny4xNTZsLS4xMS4wNzItLjA0NC4wMjItLjAwMy4wMDctLjAxMy4wMS0uMDA0LjAwNy0uMDQ0LjAyMi0uMDA0LjAwNy0uMDEzLjAxLS4wMS4wMTMtLjAxMy4wMS0uMDA0LjAwN2guMTFsLjYxNy0uMTMzYy40MS0uMDkuODA0LS4xOTYgMS4xOC0uMzIybC42OTYtLjIzMy4wMjItLjAxLjAyLS4wMS4wNDQtLjAyMi4wNDQtLjAwNi4wNDMtLjAwNHYuMDQ0bC0uMDEuMDA0LS4wMS4wMDctLjAwNC4wMDctLjAxMy4wMS0uMDEuMDEzLS4wMTMuMDEtLjAwNC4wMDctLjAwMy4wMDctLjAwNy4wMDQtLjAyMi4wNDQtLjAwNy4wMDMtLjI4LjM3OC0uMjk4LjM3OGMtLjAxNC4wMDQtLjAzNi4wMjctLjA2Mi4wNjdzLS4xOC4yMDYtLjQ2Ny40OTRsLS44NDIuNzdjLS4yNzYuMjI3LS40MTYuNTA2LS40Mi44MzZsLS4wNSAxLjExM2MtLjAzLjQxNC0uMDg0Ljg2Mi0uMTY3IDEuMzQ0cy0uMjA0IDEuMDIzLS4zNzMgMS42My0uMzc1IDEuMTk4LS42MTggMS43NzctLjQ5NiAxLjA5NC0uNzYgMS41NTNhMTQuOTggMTQuOTggMCAwIDEtMS40IDIuMDY0IDEzLjExIDEzLjExIDAgMCAxLS44NjQuOTVsLS41NzIuNTc4YTEzLjk2IDEzLjk2IDAgMCAxLS40MzMuMzYzbC0uODE0LjYzNi0uNzk4LjUyNi0uODc4LjQ4MmExMC40IDEwLjQgMCAwIDEtMS4xMDcuNTA2bC0xLjI1Ni40MzNhMTEuNDYgMTEuNDYgMCAwIDEtMS4yNzkuMzExbC0xLjQuMTktLjc4Mi4wNzdWMjBINi45ODd2LS4wMWwtLjE4Ny0uMDEtLjMxLS4wMjItLjkxNC0uMTIyLTEuMjQ0LS4yMjItMS4zNDYtLjQyMmExMy4wMyAxMy4wMyAwIDAgMS0xLjUyOC0uNjI4bC0uNzkzLS40LS4zNTctLjIwMy0uMi0uMTIyLS4wMDQtLjAwNy0uMDEzLS4wMS0uMDA0LS4wMDctLjA0NC0uMDIyLS4wMDMtLjAwNy0uMDEzLS4wMS0uMDEtLjAxMy0uMDA3LS4wMDRIMHYtLjA0NGwuMDIyLjAwNC4wMjIuMDA3LjEuMDFjLjA2Ny4wMDguMjQ2LjAyLjU0LjAzMyAxLjA3LjA1IDIuMTQzLS4wNzMgMy4xNzQtLjM2Ny40NDMtLjExNi44NzYtLjI2NiAxLjI5Ni0uNDQ4bC44MzgtLjM5Yy4yNi0uMTQzLjUxLS4zLjc1My0uNDdsLjUwOC0uMzQ0LjAwNC0uMDA3LjAwNy0uMDA0LjAwNi0uMDA0LjAxLS4wMTMuMDEzLS4wMS4wMDQtLjAwNy4wMjItLjAwNy4wMjItLjAwNC4wMDQtLjAyMi4wMDctLjAyMi4wMDctLjAwNC4wMDQtLjAwNy0uMTc3LS4wMS0uMzQtLjAyMmEzLjI5IDMuMjkgMCAwIDEtLjUxOS0uMSA0Ljk1IDQuOTUgMCAwIDEtLjc2LS4yNjcgNS44NSA1Ljg1IDAgMCAxLS43OTMtLjQyMWMtLjE5OC0uMTE4LS4zODQtLjI1NC0uNTU4LS40MDZsLS40NC0uNDUzYTQuNDkgNC40OSAwIDAgMS0uNDY3LS42MDYgNS40NiA1LjQ2IDAgMCAxLS4zOC0uNzE4bC0uMTgyLS40MDMtLjAyMi0uMDY3LS4wMDctLjAyMi0uMDA0LS4wMjIuMDMzLjAwNC4wMzMuMDA3LjI0Mi4wMzNjLjE2LjAyMi40MTQuMDMuNzYuMDIybC43MTctLjA0NC4yNDItLjA0NC4wNDQtLjAxLjA1Ni0uMDEuMDU0LS4wMS4wMDQtLjAwNy4wMTMtLjAxLjAwNC0uMDA3LS4xMzMtLjAzMy0uMDQzLS4wMS0uMDQ0LS4wMS0uMTUzLS4wNDQtLjU5Ni0uMjQ0YTQuNTQgNC41NCAwIDAgMS0uNzcxLS40MTFjLS4xOTItLjEzMy0uMzc0LS4yOC0uNTQ3LS40MzctLjIwMi0uMTkzLS4zOTItLjQtLjU2Ny0uNjE3LS4yMTctLjI3LS40MDItLjU2NS0uNTUtLjg3OC0uMTUtLjMwNS0uMjczLS42MjUtLjM2My0uOTUzLS4wOC0uMzAyLS4xMzQtLjYxLS4xNi0uOTIybC0uMDQtLjQ2Ni4wMjIuMDA0LjAyMi4wMDcuMDY3LjAzMy4wMi4wMS4zNDIuMTU2Yy4yMjguMTAzLjUxLjE5Mi44NDguMjY3bC42MDcuMTIyLjEuMDFoLjE5OGwtLjAwNC0uMDA4LS4wMTMtLjAxLS4wMS0uMDEzLS4wMTMtLjAxLS4wMDQtLjAwNy0uMDQ0LS4wMjItLjAwNC0uMDA3LS4wMTMtLjAxLS4wMDQtLjAwNy0uMDQ0LS4wMjItLjAwMy0uMDA3LS4xOS0uMTRhMi45IDIuOSAwIDAgMS0uMzgtLjM2MmwtLjM5Ny0uNDY3YTMuNiAzLjYgMCAwIDEtLjM1Mi0uNTIxYy0uMTIzLS4yMjgtLjIzMi0uNDY0LS4zMjctLjcwNi0uMjE4LS41NDYtLjM0LTEuMTI3LS4zNTctMS43MTQtLjAwOC0uMjggMC0uNTIyLjAyMi0uNzJzLjA2Ni0uNDI2LjEzLS42NzhhNS4zIDUuMyAwIDAgMSAuMjg3LS43OThsLjE4OC0uNDIyTDEuNjY0LjkgMS42Ny45MDZsLjAxLS4wMTMuMDA3LS4wMDMuMDA3LjAwNC4wMDQuMDA3LjAwMy4wMDcuMDEzLjAxLjAxLjAxMy4wMDcuMDA0LjAyMi4wNDQuMDA3LjAwNC4wMDQuMDA3LjI5OC4zMzMuNzA2Ljc0My40NS40MjdjLjAzLjAxLjA2Ny4wNDQuMTEuMXMuMi4xODcuNDQuMzkzYTEzLjQ5IDEzLjQ5IDAgMCAwIC45ODEuNzIyYy40MDQuMjczLjg1Mi41NDMgMS4zNDQuODFhMTMuMDkgMTMuMDkgMCAwIDAgMS41ODcuNzIybDEuMTkuNDIyYy4yMjguMDY3LjYxNy4xNSAxLjE2OC4yNTZsMS4yNDQuMi41NzQuMDUuMTU0LjAwNC0uMDA0LS4wMzMtLjAwNy0uMDMzLS4wNDQtLjI3OGE1LjMxIDUuMzEgMCAwIDEtLjA0NC0uNzc3IDUuMDcgNS4wNyAwIDAgMSAuMDc4LS45MjJjLjA1LS4yOC4xMjgtLjU2Ni4yMy0uODUzcy4yMDMtLjUyLjMwMi0uNjk2YTYuODkgNi44OSAwIDAgMSAuMzkyLS41OTJjLjE2LS4yMjIuMzctLjQ1LjYyOC0uNjlzLjU1LS40NDcuODgyLS42MzIuNjM2LS4zMjYuOTE0LS40MjIuNTE0LS4xNTguNzA2LS4xOWwuMjg3LS4wNVYuMDA0eiIgZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="Open Exyte's Twitter in new tab">
-          </a>
-        </li>
-        <li class="social-nav__item" style="--item-order: 9">
-          <a target="_ blank" href="https://github.com/brezgo" rel="nofollow">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05Ljk5NyAwQzQuNDc3IDAgMCA0LjU5IDAgMTAuMjUyYzAgNC41MyAyLjg2NSA4LjM3MyA2LjgzNyA5LjczLjUuMDk0LjY4My0uMjIzLjY4My0uNDk0IDAtLjI0NS0uMDEtMS4wNTItLjAxNC0xLjkwOS0yLjc4MS42Mi0zLjM2OC0xLjIxLTMuMzY4LTEuMjEtLjQ1NS0xLjE4NS0xLjExLTEuNS0xLjExLTEuNS0uOTA3LS42MzYuMDY4LS42MjMuMDY4LS42MjMgMS4wMDQuMDcyIDEuNTMzIDEuMDU3IDEuNTMzIDEuMDU3Ljg5MiAxLjU2NyAyLjMzOSAxLjExNCAyLjkxLjg1Mi4wODktLjY2My4zNDgtMS4xMTUuNjM0LTEuMzcxLTIuMjItLjI2LTQuNTU1LTEuMTM4LTQuNTU1LTUuMDY3IDAtMS4xMi4zOS0yLjAzNCAxLjAzLTIuNzUyLS4xMDQtLjI1OC0uNDQ2LTEuMy4wOTctMi43MTMgMCAwIC44NC0uMjc2IDIuNzUgMS4wNWE5LjM1NCA5LjM1NCAwIDAgMSAyLjUwMi0uMzQ0Yy44NS4wMDQgMS43MDYuMTE4IDIuNTA1LjM0NSAxLjkwOC0xLjMyNyAyLjc0Ni0xLjA1MSAyLjc0Ni0xLjA1MS41NDQgMS40MTIuMjAyIDIuNDU1LjA5OCAyLjcxMy42NDEuNzE4IDEuMDMgMS42MzMgMS4wMyAyLjc1MiAwIDMuOTM4LTIuMzQgNC44MDUtNC41NjYgNS4wNTkuMzU5LjMxOC42NzguOTQyLjY3OCAxLjg5OCAwIDEuMzcyLS4wMTEgMi40NzYtLjAxMSAyLjgxNCAwIC4yNzMuMTguNTkyLjY4Ny40OTIgMy45Ny0xLjM1NyA2LjgzLTUuMiA2LjgzLTkuNzI4QzE5Ljk5NSA0LjU5IDE1LjUyIDAgOS45OTggMCIvPg0KPC9zdmc+DQo=" alt="Open Exyte's Github in new tab">
-          </a>
-        </li> -->
-      </ul>
-      
-    </nav>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik02LjY2NyAxMGEzLjMzMyAzLjMzMyAwIDEgMSA2LjY2NyAwIDMuMzMzIDMuMzMzIDAgMCAxLTYuNjY3IDBtLTEuODAyIDBhNS4xMzUgNS4xMzUgMCAxIDAgMTAuMjcgMCA1LjEzNSA1LjEzNSAwIDAgMC0xMC4yNyAwbTkuMjc0LTUuMzM4YTEuMiAxLjIgMCAxIDAgMS4yLTEuMiAxLjIgMS4yIDAgMCAwLTEuMiAxLjJNNS45NiAxOC4xNGMtLjk3NS0uMDQ1LTEuNTA1LS4yMDctMS44NTctLjM0NGEzLjEwOCAzLjEwOCAwIDAgMS0xLjE1LS43NDggMy4wODUgMy4wODUgMCAwIDEtLjc0OC0xLjE1Yy0uMTM3LS4zNTItLjMtLjg4Mi0uMzQ0LTEuODU3LS4wNDktMS4wNTQtLjA1OC0xLjM3LS4wNTgtNC4wNCAwLTIuNjcxLjAxLTIuOTg3LjA1OC00LjA0Mi4wNDQtLjk3NS4yMDgtMS41MDQuMzQ0LTEuODU3LjE4Mi0uNDY3LjM5OC0uOC43NDgtMS4xNS4zNS0uMzUuNjgyLS41NjcgMS4xNS0uNzQ4LjM1Mi0uMTM4Ljg4Mi0uMyAxLjg1Ny0uMzQ0IDEuMDU0LS4wNDkgMS4zNzEtLjA1OCA0LjA0LS4wNTggMi42NyAwIDIuOTg3LjAxIDQuMDQyLjA1OC45NzUuMDQ0IDEuNTA0LjIwOCAxLjg1Ny4zNDQuNDY3LjE4LjguMzk4IDEuMTUuNzQ4LjM1LjM1LjU2Ni42ODMuNzQ4IDEuMTUuMTM3LjM1Mi4zLjg4Mi4zNDQgMS44NTcuMDQ5IDEuMDU1LjA1OCAxLjM3LjA1OCA0LjA0MSAwIDIuNjctLjAxIDIuOTg3LS4wNTggNC4wNDItLjA0NC45NzQtLjIwNyAxLjUwNC0uMzQ0IDEuODU3LS4xODIuNDY2LS4zOTguOC0uNzQ4IDEuMTQ5LS4zNS4zNS0uNjgzLjU2Ni0xLjE1Ljc0OC0uMzUyLjEzNy0uODgyLjMtMS44NTcuMzQ0LTEuMDU0LjA0OC0xLjM3MS4wNTgtNC4wNDIuMDU4LTIuNjcgMC0yLjk4Ni0uMDEtNC4wNC0uMDU4TTUuODc3LjA2QzQuODEzLjExIDQuMDg1LjI3OSAzLjQ1LjUyNkE0LjkwOCA0LjkwOCAwIDAgMCAxLjY4IDEuNjc4IDQuODgzIDQuODgzIDAgMCAwIC41MjUgMy40NUMuMjc4IDQuMDg2LjExIDQuODEzLjA2MSA1Ljg3Ny4wMSA2Ljk0MyAwIDcuMjg0IDAgMTBzLjAxMSAzLjA1Ny4wNiA0LjEyM2MuMDQ5IDEuMDY0LjIxOCAxLjc5MS40NjUgMi40MjdhNC44ODggNC44ODggMCAwIDAgMS4xNTQgMS43NzIgNC45MTQgNC45MTQgMCAwIDAgMS43NzEgMS4xNTNjLjYzNy4yNDcgMS4zNjMuNDE2IDIuNDI3LjQ2NEM2Ljk0NCAxOS45ODggNy4yODUgMjAgMTAgMjBjMi43MTYgMCAzLjA1Ny0uMDExIDQuMTIzLS4wNiAxLjA2NS0uMDQ5IDEuNzkyLS4yMTggMi40MjgtLjQ2NWE0LjkxOCA0LjkxOCAwIDAgMCAxLjc3MS0xLjE1MyA0Ljg5OSA0Ljg5OSAwIDAgMCAxLjE1NC0xLjc3MmMuMjQ3LS42MzYuNDE3LTEuMzYzLjQ2NC0yLjQyNy4wNDktMS4wNjcuMDYtMS40MDcuMDYtNC4xMjNzLS4wMTEtMy4wNTctLjA2LTQuMTIzYy0uMDQ4LTEuMDY0LS4yMTctMS43OTItLjQ2NC0yLjQyN2E0LjkxOCA0LjkxOCAwIDAgMC0xLjE1NC0xLjc3MiA0Ljg5MyA0Ljg5MyAwIDAgMC0xLjc3LTEuMTUzYy0uNjM3LS4yNDctMS4zNjQtLjQxNy0yLjQyOC0uNDY0QzEzLjA1OC4wMSAxMi43MTcgMCAxMC4wMDIgMCA3LjI4NiAwIDYuOTQ1LjAxMSA1Ljg3OC4wNiIvPg0KPC9zdmc+DQo=" alt="Open Exyte's Instagram in new tab">
+              </a>
+            </li>
+            <li class="social-nav__item" style="--item-order: 8">
+              <a target="_ blank" href="https://twitter.com/brezgo"  rel="nofollow">
 
-    <button class="header-default__button header-default__hamburger js-hamburger" aria-label="show navigation"
-      type="button"
-      data-g-config="{'eventLabel': 'open', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'nav burger'}">
-      <svg class="icon--svg header-default__button-icon" aria-hidden="true">
-        <use xlink:href="#ico-hamburger"></use>
-      </svg>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTE2LjMzMy4wMDRWMGgxLjE0NmwuNDIuMDg0Yy4yOC4wNTYuNTMzLjEyNy43Ni4yMTZhNS4zNSA1LjM1IDAgMCAxIC42NjEuMzExYy4yMTMuMTE4LjQwNi4yMzguNTguMzZhMy41OSAzLjU5IDAgMCAxIC40NjMuMzg3Yy4xMzYuMTM4LjM0Ny4xNzIuNjMzLjEwN2E4LjY3IDguNjcgMCAwIDAgLjkyNi0uMjc4bC45OC0uNC41OS0uMjgyLjExLS4wNjcuMDAzLS4wMDYuMDktLjA0NC4wMDMtLjAwNy4wMTMtLjAxLjAwNC0uMDA3LjAyMi0uMDA3LjAyMi0uMDA0LS4wMDQuMDMzLS4wMDcuMDMzLS4wMjIuMDY3LS4wMjIuMDQ0LS4wMS4wMzNjLS4wMS4wMy0uMDE3LjA2LS4wMjIuMDktLjAwNy4wMzctLjA3Ny4xODQtLjIxLjQ0M3MtLjI5OC41MjItLjQ5Ni43OS0uMzc3LjQ2Ny0uNTMzLjYwM2wtLjMxNi4yOWEuOTUuOTUgMCAwIDEtLjE4Ny4xNTZsLS4xMS4wNzItLjA0NC4wMjItLjAwMy4wMDctLjAxMy4wMS0uMDA0LjAwNy0uMDQ0LjAyMi0uMDA0LjAwNy0uMDEzLjAxLS4wMS4wMTMtLjAxMy4wMS0uMDA0LjAwN2guMTFsLjYxNy0uMTMzYy40MS0uMDkuODA0LS4xOTYgMS4xOC0uMzIybC42OTYtLjIzMy4wMjItLjAxLjAyLS4wMS4wNDQtLjAyMi4wNDQtLjAwNi4wNDMtLjAwNHYuMDQ0bC0uMDEuMDA0LS4wMS4wMDctLjAwNC4wMDctLjAxMy4wMS0uMDEuMDEzLS4wMTMuMDEtLjAwNC4wMDctLjAwMy4wMDctLjAwNy4wMDQtLjAyMi4wNDQtLjAwNy4wMDMtLjI4LjM3OC0uMjk4LjM3OGMtLjAxNC4wMDQtLjAzNi4wMjctLjA2Mi4wNjdzLS4xOC4yMDYtLjQ2Ny40OTRsLS44NDIuNzdjLS4yNzYuMjI3LS40MTYuNTA2LS40Mi44MzZsLS4wNSAxLjExM2MtLjAzLjQxNC0uMDg0Ljg2Mi0uMTY3IDEuMzQ0cy0uMjA0IDEuMDIzLS4zNzMgMS42My0uMzc1IDEuMTk4LS42MTggMS43NzctLjQ5NiAxLjA5NC0uNzYgMS41NTNhMTQuOTggMTQuOTggMCAwIDEtMS40IDIuMDY0IDEzLjExIDEzLjExIDAgMCAxLS44NjQuOTVsLS41NzIuNTc4YTEzLjk2IDEzLjk2IDAgMCAxLS40MzMuMzYzbC0uODE0LjYzNi0uNzk4LjUyNi0uODc4LjQ4MmExMC40IDEwLjQgMCAwIDEtMS4xMDcuNTA2bC0xLjI1Ni40MzNhMTEuNDYgMTEuNDYgMCAwIDEtMS4yNzkuMzExbC0xLjQuMTktLjc4Mi4wNzdWMjBINi45ODd2LS4wMWwtLjE4Ny0uMDEtLjMxLS4wMjItLjkxNC0uMTIyLTEuMjQ0LS4yMjItMS4zNDYtLjQyMmExMy4wMyAxMy4wMyAwIDAgMS0xLjUyOC0uNjI4bC0uNzkzLS40LS4zNTctLjIwMy0uMi0uMTIyLS4wMDQtLjAwNy0uMDEzLS4wMS0uMDA0LS4wMDctLjA0NC0uMDIyLS4wMDMtLjAwNy0uMDEzLS4wMS0uMDEtLjAxMy0uMDA3LS4wMDRIMHYtLjA0NGwuMDIyLjAwNC4wMjIuMDA3LjEuMDFjLjA2Ny4wMDguMjQ2LjAyLjU0LjAzMyAxLjA3LjA1IDIuMTQzLS4wNzMgMy4xNzQtLjM2Ny40NDMtLjExNi44NzYtLjI2NiAxLjI5Ni0uNDQ4bC44MzgtLjM5Yy4yNi0uMTQzLjUxLS4zLjc1My0uNDdsLjUwOC0uMzQ0LjAwNC0uMDA3LjAwNy0uMDA0LjAwNi0uMDA0LjAxLS4wMTMuMDEzLS4wMS4wMDQtLjAwNy4wMjItLjAwNy4wMjItLjAwNC4wMDQtLjAyMi4wMDctLjAyMi4wMDctLjAwNC4wMDQtLjAwNy0uMTc3LS4wMS0uMzQtLjAyMmEzLjI5IDMuMjkgMCAwIDEtLjUxOS0uMSA0Ljk1IDQuOTUgMCAwIDEtLjc2LS4yNjcgNS44NSA1Ljg1IDAgMCAxLS43OTMtLjQyMWMtLjE5OC0uMTE4LS4zODQtLjI1NC0uNTU4LS40MDZsLS40NC0uNDUzYTQuNDkgNC40OSAwIDAgMS0uNDY3LS42MDYgNS40NiA1LjQ2IDAgMCAxLS4zOC0uNzE4bC0uMTgyLS40MDMtLjAyMi0uMDY3LS4wMDctLjAyMi0uMDA0LS4wMjIuMDMzLjAwNC4wMzMuMDA3LjI0Mi4wMzNjLjE2LjAyMi40MTQuMDMuNzYuMDIybC43MTctLjA0NC4yNDItLjA0NC4wNDQtLjAxLjA1Ni0uMDEuMDU0LS4wMS4wMDQtLjAwNy4wMTMtLjAxLjAwNC0uMDA3LS4xMzMtLjAzMy0uMDQzLS4wMS0uMDQ0LS4wMS0uMTUzLS4wNDQtLjU5Ni0uMjQ0YTQuNTQgNC41NCAwIDAgMS0uNzcxLS40MTFjLS4xOTItLjEzMy0uMzc0LS4yOC0uNTQ3LS40MzctLjIwMi0uMTkzLS4zOTItLjQtLjU2Ny0uNjE3LS4yMTctLjI3LS40MDItLjU2NS0uNTUtLjg3OC0uMTUtLjMwNS0uMjczLS42MjUtLjM2My0uOTUzLS4wOC0uMzAyLS4xMzQtLjYxLS4xNi0uOTIybC0uMDQtLjQ2Ni4wMjIuMDA0LjAyMi4wMDcuMDY3LjAzMy4wMi4wMS4zNDIuMTU2Yy4yMjguMTAzLjUxLjE5Mi44NDguMjY3bC42MDcuMTIyLjEuMDFoLjE5OGwtLjAwNC0uMDA4LS4wMTMtLjAxLS4wMS0uMDEzLS4wMTMtLjAxLS4wMDQtLjAwNy0uMDQ0LS4wMjItLjAwNC0uMDA3LS4wMTMtLjAxLS4wMDQtLjAwNy0uMDQ0LS4wMjItLjAwMy0uMDA3LS4xOS0uMTRhMi45IDIuOSAwIDAgMS0uMzgtLjM2MmwtLjM5Ny0uNDY3YTMuNiAzLjYgMCAwIDEtLjM1Mi0uNTIxYy0uMTIzLS4yMjgtLjIzMi0uNDY0LS4zMjctLjcwNi0uMjE4LS41NDYtLjM0LTEuMTI3LS4zNTctMS43MTQtLjAwOC0uMjggMC0uNTIyLjAyMi0uNzJzLjA2Ni0uNDI2LjEzLS42NzhhNS4zIDUuMyAwIDAgMSAuMjg3LS43OThsLjE4OC0uNDIyTDEuNjY0LjkgMS42Ny45MDZsLjAxLS4wMTMuMDA3LS4wMDMuMDA3LjAwNC4wMDQuMDA3LjAwMy4wMDcuMDEzLjAxLjAxLjAxMy4wMDcuMDA0LjAyMi4wNDQuMDA3LjAwNC4wMDQuMDA3LjI5OC4zMzMuNzA2Ljc0My40NS40MjdjLjAzLjAxLjA2Ny4wNDQuMTEuMXMuMi4xODcuNDQuMzkzYTEzLjQ5IDEzLjQ5IDAgMCAwIC45ODEuNzIyYy40MDQuMjczLjg1Mi41NDMgMS4zNDQuODFhMTMuMDkgMTMuMDkgMCAwIDAgMS41ODcuNzIybDEuMTkuNDIyYy4yMjguMDY3LjYxNy4xNSAxLjE2OC4yNTZsMS4yNDQuMi41NzQuMDUuMTU0LjAwNC0uMDA0LS4wMzMtLjAwNy0uMDMzLS4wNDQtLjI3OGE1LjMxIDUuMzEgMCAwIDEtLjA0NC0uNzc3IDUuMDcgNS4wNyAwIDAgMSAuMDc4LS45MjJjLjA1LS4yOC4xMjgtLjU2Ni4yMy0uODUzcy4yMDMtLjUyLjMwMi0uNjk2YTYuODkgNi44OSAwIDAgMSAuMzkyLS41OTJjLjE2LS4yMjIuMzctLjQ1LjYyOC0uNjlzLjU1LS40NDcuODgyLS42MzIuNjM2LS4zMjYuOTE0LS40MjIuNTE0LS4xNTguNzA2LS4xOWwuMjg3LS4wNVYuMDA0eiIgZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" alt="Open Exyte's Twitter in new tab">
+              </a>
+            </li>
+            <li class="social-nav__item" style="--item-order: 9">
+              <a target="_ blank" href="https://github.com/brezgo" rel="nofollow">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05Ljk5NyAwQzQuNDc3IDAgMCA0LjU5IDAgMTAuMjUyYzAgNC41MyAyLjg2NSA4LjM3MyA2LjgzNyA5LjczLjUuMDk0LjY4My0uMjIzLjY4My0uNDk0IDAtLjI0NS0uMDEtMS4wNTItLjAxNC0xLjkwOS0yLjc4MS42Mi0zLjM2OC0xLjIxLTMuMzY4LTEuMjEtLjQ1NS0xLjE4NS0xLjExLTEuNS0xLjExLTEuNS0uOTA3LS42MzYuMDY4LS42MjMuMDY4LS42MjMgMS4wMDQuMDcyIDEuNTMzIDEuMDU3IDEuNTMzIDEuMDU3Ljg5MiAxLjU2NyAyLjMzOSAxLjExNCAyLjkxLjg1Mi4wODktLjY2My4zNDgtMS4xMTUuNjM0LTEuMzcxLTIuMjItLjI2LTQuNTU1LTEuMTM4LTQuNTU1LTUuMDY3IDAtMS4xMi4zOS0yLjAzNCAxLjAzLTIuNzUyLS4xMDQtLjI1OC0uNDQ2LTEuMy4wOTctMi43MTMgMCAwIC44NC0uMjc2IDIuNzUgMS4wNWE5LjM1NCA5LjM1NCAwIDAgMSAyLjUwMi0uMzQ0Yy44NS4wMDQgMS43MDYuMTE4IDIuNTA1LjM0NSAxLjkwOC0xLjMyNyAyLjc0Ni0xLjA1MSAyLjc0Ni0xLjA1MS41NDQgMS40MTIuMjAyIDIuNDU1LjA5OCAyLjcxMy42NDEuNzE4IDEuMDMgMS42MzMgMS4wMyAyLjc1MiAwIDMuOTM4LTIuMzQgNC44MDUtNC41NjYgNS4wNTkuMzU5LjMxOC42NzguOTQyLjY3OCAxLjg5OCAwIDEuMzcyLS4wMTEgMi40NzYtLjAxMSAyLjgxNCAwIC4yNzMuMTguNTkyLjY4Ny40OTIgMy45Ny0xLjM1NyA2LjgzLTUuMiA2LjgzLTkuNzI4QzE5Ljk5NSA0LjU5IDE1LjUyIDAgOS45OTggMCIvPg0KPC9zdmc+DQo=" alt="Open Exyte's Github in new tab">
+              </a>
+            </li> -->
+          </ul>
+          
+        </nav>
 
-    </button>
-    <button class="header-default__drawer-close js-close" aria-label="close navigation" type="button"
-      data-g-config="{'eventLabel': 'close', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'nav burger'}">
-      <svg class="icon--svg header-default__drawer-close-icon" aria-hidden="true">
-        <use xlink:href="#ico-close"></use>
-      </svg>
-    </button>
-  </div>
-</div>
-<nav class="header-default__drawer">
-  <div class="header-default__drawer-container grid">
-    <ul class="header-default__primary">
-      <li class="header-default__primary-item" style="--item-order: 1">
-        <a href="../index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}"> 
-          Home.<svg class="icon--svg cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item " style="--item-order: 2">
-        <a href="../servicios/index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
-          <svg class="icon--s cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item " style="--item-order: 3">
-        <a href="../portafolio/index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
-          <svg class="icon--sv cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item header-default__item--active " style="--item-order: 4">
-        <a href="../equipo/index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
-            class="icon--svg cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item " style="--item-order: 5">
-        <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
-            class="icon--svg cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item " style="--item-order: 6">
-        <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contacto.<svg
-            class="icon--svg cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
-      <li class="header-default__primary-item " style="--item-order: 7">
-        <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Developers.<svg
-            class="icon--svg cta__icon" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>
+        <button class="header-default__button header-default__hamburger js-hamburger" aria-label="show navigation"
+          type="button"
+          data-g-config="{'eventLabel': 'open', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'nav burger'}">
+          <svg class="icon--svg header-default__button-icon" aria-hidden="true">
+            <use xlink:href="#ico-hamburger"></use>
+          </svg>
 
-    </ul>
-    <ul class="header-default__secondary">
-      <li class="header-default__secondary-item">
-        <a href="" class="cta cta--is-3" target="_blank" rel="noopener"
-          data-g-config="{'eventLabel': 'android developers', 'moduleName': 'header', 'linkUrl': 'https://developer.android.com/', 'eventCategory': 'navigation', 'title': 'menu item'}">Brezgo
-          Terminos<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
-            <use xlink:href="#ico-arrow-large"></use>
-          </svg></a>
-      </li>          
-    </ul>
-    
-    <div class="header-default__language">
-      <form class="language-selector" data-android-component="language-selector"> <svg
-          class="icon--svg language-selector__globe" aria-hidden="true">
-          <use xlink:href="#ico-globe"></use>
-        </svg>
-        <label class="visually-hidden" for="language-selector-android-10">Languages</label>
-        <select id="language-selector-android-10" class="language-selector__select js-language-selector"
-          aria-label="Pick a language"
-          data-g-config="{'eventLabel': 'open', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'country dropdown'}">
-          <option selected class="language-selector__option" value="/android-10/"
-            data-g-config="{'eventLabel': 'united states', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'country dropdown'}">
-            United States - English
-        </select>
-        <svg class="icon--svg language-selector__icon" aria-hidden="true">
-          <use xlink:href="#ico-arrow-round"></use>
-        </svg>
-      </form>
+        </button>
+        <button class="header-default__drawer-close js-close" aria-label="close navigation" type="button"
+          data-g-config="{'eventLabel': 'close', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'nav burger'}">
+          <svg class="icon--svg header-default__drawer-close-icon" aria-hidden="true">
+            <use xlink:href="#ico-close"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-  </div>
-</nav>
-</header>
-
-<!--article  -->
-  <main>
-    <article>
-      <section id="say-hello-to-android-10" class="hero-looper" data-android-component="hero-looper"
-        data-android-component-config="{'scenes': {'small': [4,4,4,4,2], 'medium': [4,4,4,4,2], 'large': [2,4,4,4,4,2], 'extra-large': [2,4,4,4,4,2]}}">
-        <div class="hero-looper__wrapper grid">
-          <div class="hero-looper__copy-wrapper">
-            <h1 class="hero-overlax__eyebrow is-7">Agencia en software.</h1>
-            <h1 class="is-2">Say hello to Brezgo EZ.</h1>
-            <p class="hero-looper__copy is-copy-m">Tenemos la misión de ayudar a las empresas exitosas a ampliar sus capacidades tecnológicas. Ayudamos a las empresas a convertirse en líderes de innovación al ofrecer equipos y servicios de desarrollo de software a pedido para crear productos digitales impecables.</p>
-            <a href="" class="cta cta--is-1" aria-label="Learn more: Say hello to Android 10."
-              data-g-config="{'eventLabel': 'learn more', 'moduleName': 'hero-looper', 'linkUrl': '/android-10/', 'eventCategory': 'module interactions', 'title': 'cta'}">Learn
-              more</a>
-          </div>
-          <div class="hero-looper__animation-wrapper">
-            <div class="hero-looper__image-wrapper hero-looper__image-container-1">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hero-looper__image-wrapper hero-looper__image-container-2">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hero-looper__image-wrapper hero-looper__image-container-3">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hero-looper__image-wrapper hero-looper__image-container-4">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hero-looper__image-wrapper hero-looper__image-container-5">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hero-looper__image-wrapper hero-looper__image-container-6">
-              <div class="wt-hero-footer">
-                <div class="wt-hero-demo">
-                  <div class="wt-hero-card"></div>
-                  <div class="wt-hero-phone">
-                    <div class="wt-phone">
-                      <div class="wt-phone-shad"></div>
-                      <div class="wt-phone-cas"></div>
-                      <div class="wt-phone-scree">
-                        <div class="wt-phone-scree-video">
-                          <video preload="auto" loop muted autoplay playsinline>
-                            <source src="../static/video/21.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="hero-looper__shape hero-looper__shape--1 background-shapes__sausage background-shapes__sausage--cornflower">
-            </div>
-            <div
-              class="hero-looper__shape hero-looper__shape--2 background-shapes__circle-filled background-shapes__circle-filled--green-tea">
-            </div>
-            <div
-              class="hero-looper__shape hero-looper__shape--3 background-shapes__sausage background-shapes__sausage--cornflower">
-            </div>
-          </div>
-          <div class="background-shapes">
-            <div class="hero-looper__background-shape background-shapes__circle-filled"></div>
-          </div>
-        </div>
-      </section>
-
-<!-- team -->
-      <div class="team page-content">
-        <div class="team__header container">
-          <div class="row">
-            <div class="offset-lg-4 col-lg-14">
-              <h1 class="team__title">Conozca a Nuestro Equipo</h1>
-              <p class="team__description">Nos apasiona la búsqueda de ideas que prioricen a las personas.</p>
-            </div>
-          </div>
-        </div>
-        <div class="team__content container">
-          <div class="row">
-            <div class="team__img-wrap offset-xl-2 col-xl-16 offset-lg-2 col-lg-16">
-              <img class="team__img" src="/" alt="img equipo">
-            </div>
-            <div class="team__wrap offset-xl-6 col-xl-12 offset-lg-4 col-lg-12">
-              <h2 class="team__h2">El Equipo</h2>
-              <p class="team__about-us">Somos un equipo de expertos y diseñadores de programación full-stack con un conocimiento sorprendentemente en Gestion de Proyectos</p>
-            </div>
-            <div class="team__text-block row">
-              <div class="team__count offset-md-4 col-md-3 row">
-                <div class="team__number">5</div>
-                <div class="team__position">Profesionales en Nuestro Equipo</div>
-              </div>
-              <p class="team__text offset-xl-0 col-lg-10 col-xl-7 offset-lg-4">Algunos de nosotros somos muy, muy buenos en el ajedrez y somos unánimemente malos en la navegación. Todos trabajamos juntos en un elegante edificio de oficinas. Si no estamos trabajando juntos en el edificio antes mencionado, es muy probable que pasemos tiempo juntos en otro lugar, después de todo, somos amigos</p>
-            </div>
-          </div>
-        </div>
-        <div class="team__slider-block container">
-          <div class="row">
-            <div class="team__wrap-slider col-xl-16 col-lg-17">
-              <div class="team__slider owl-carousel">
-                <div class="team__slide row">
-                  <div class="team__slide-wrap-img col-lg-10">
-                    <img class="team__slide-img" src="https://i.ibb.co/54YG94N/steve.png" alt="Photo">
-                    <button class="team__slide-img-prev"></button>
-                    <button class="team__slide-img-next"></button>
-                  </div>
-                  <div class="team__slide-text">
-                    <div class="team__name">Steve Aguilar</div>
-                    <div class="team__post">Tecnico en software</div>
-                    <div class="team__skills">
-                      <span>Skills: </span>Programación Orientada a Objetos, Java, Node.js. Integracion de Soluciones, Conprención Profunda del Desarrollo, Desarrollo Dirigido por Pruebas; Jugando Videojuegos Mejor que el Resto de Nosotros.
-                    </div>
-                    <div class="team__background"><span>Background: </span> Informatica, Sistemas IDAT.</div>
-                    <ul class="team__socials share-socials__list row">
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-                          <img src="" alt="linkedin" width="18" height="18">
-                        </a>
-                      </li>
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-  												<img src="../static/img/share/facebook.svg" alt="instagram" width="18" height="18">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team__slide row">
-                  <div class="team__slide-wrap-img col-lg-10">
-                    <img class="team__slide-img" src="https://i.ibb.co/ydpJHmS/minerva.png" alt="Photo">
-                    <button class="team__slide-img-prev"></button>
-                    <button class="team__slide-img-next"></button>
-                  </div>
-                  <div class="team__slide-text">
-                    <div class="team__name">Estefany Camarena</div>
-                    <div class="team__post">Lider de Operaciones y Control de Calidad</div>
-                    <div class="team__skills">
-                      <span>Skills: </span> Analisis BD, Habilidad de Organizacion, Razonamiento Etico, Toma de Decisiones, Conocimiento de una Serie de Enfoques de Pruebas, Pruebas Automatizadas; Lectura, Exelente Juicio Etico.
-                    </div>
-                    <div class="team__background"><span>Background: </span> Informatica, Sistemas IDAT, Gestión Platzi.</div>
-                    <ul class="team__socials share-socials__list row">
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-                          <img src="./android-10/img/share/linkedin.svg" alt="linkedin" width="18" height="18">
-                        </a>
-                      </li>
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-  												<img src="../static/img/share/facebook.svg" alt="instagram" width="18" height="18">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team__slide row">
-                  <div class="team__slide-wrap-img col-lg-10">
-                    <img class="team__slide-img" src="https://i.ibb.co/LpDpH3S/gonzalo222.png" alt="Photo">
-                    <button class="team__slide-img-prev"></button>
-                    <button class="team__slide-img-next"></button>
-                  </div>
-                  <div class="team__slide-text">
-                    <div class="team__name">Gonzalo Ramirez</div>
-                    <div class="team__post">Lider de Desarrollo Back-end & Movil</div>
-                    <div class="team__skills">
-                      <span>Skills: </span>Full Stack Developer, Node.js, Python, Resolucion de Problemas, La Capacidad de Descubrir y Procesar Información, a la vez que Juzga su Precisión, Multitarea; Ver Series.
-                    </div>
-                    <div class="team__background"><span>Background: </span> Informatica, Sistemas en UCV.</div>
-                    <ul class="team__socials share-socials__list row">
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-                          <img src="./android-10/img/share/linkedin.svg" alt="linkedin" width="18" height="18">
-                        </a>
-                      </li>
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-  												<img src="../static/img/share/facebook.svg" alt="instagram" width="18" height="18">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team__slide row">
-                  <div class="team__slide-wrap-img col-lg-10">
-                    <img class="team__slide-img" src="https://i.ibb.co/LnQZmqs/jesus2-1.png alt="Photo">
-                    <button class="team__slide-img-prev"></button>
-                    <button class="team__slide-img-next"></button>
-                  </div>
-                  <div class="team__slide-text">
-                    <div class="team__name">Brando Rodriguez</div>
-                    <div class="team__post">Negociación, Gestión de Producto.</div>
-                    <div class="team__skills">
-                      <span>Skills: </span>Gestión, Diseño y Desarrollo Productos Digitales. 
-                      Inteligencia de Negocios, Descubrir Nuevas Tecnologias, Formar Equipos, Productor de Startups.
-                    </div>
-                    <div class="team__background"><span>Background: </span> Informatica, Sistemas IDAT, Ingenieria & Desarrollo PLatzi.</div>
-                    <ul class="team__socials share-socials__list row">
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-                          <img src="./android-10/img/share/linkedin.svg" alt="linkedin" width="18" height="18">
-                        </a>
-                      </li>
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-  												<img src="./android-10/img/share/facebook.svg" alt="github" width="18" height="18">
-                          <!-- <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05Ljk5NyAwQzQuNDc3IDAgMCA0LjU5IDAgMTAuMjUyYzAgNC41MyAyLjg2NSA4LjM3MyA2LjgzNyA5LjczLjUuMDk0LjY4My0uMjIzLjY4My0uNDk0IDAtLjI0NS0uMDEtMS4wNTItLjAxNC0xLjkwOS0yLjc4MS42Mi0zLjM2OC0xLjIxLTMuMzY4LTEuMjEtLjQ1NS0xLjE4NS0xLjExLTEuNS0xLjExLTEuNS0uOTA3LS42MzYuMDY4LS42MjMuMDY4LS42MjMgMS4wMDQuMDcyIDEuNTMzIDEuMDU3IDEuNTMzIDEuMDU3Ljg5MiAxLjU2NyAyLjMzOSAxLjExNCAyLjkxLjg1Mi4wODktLjY2My4zNDgtMS4xMTUuNjM0LTEuMzcxLTIuMjItLjI2LTQuNTU1LTEuMTM4LTQuNTU1LTUuMDY3IDAtMS4xMi4zOS0yLjAzNCAxLjAzLTIuNzUyLS4xMDQtLjI1OC0uNDQ2LTEuMy4wOTctMi43MTMgMCAwIC44NC0uMjc2IDIuNzUgMS4wNWE5LjM1NCA5LjM1NCAwIDAgMSAyLjUwMi0uMzQ0Yy44NS4wMDQgMS43MDYuMTE4IDIuNTA1LjM0NSAxLjkwOC0xLjMyNyAyLjc0Ni0xLjA1MSAyLjc0Ni0xLjA1MS41NDQgMS40MTIuMjAyIDIuNDU1LjA5OCAyLjcxMy42NDEuNzE4IDEuMDMgMS42MzMgMS4wMyAyLjc1MiAwIDMuOTM4LTIuMzQgNC44MDUtNC41NjYgNS4wNTkuMzU5LjMxOC42NzguOTQyLjY3OCAxLjg5OCAwIDEuMzcyLS4wMTEgMi40NzYtLjAxMSAyLjgxNCAwIC4yNzMuMTguNTkyLjY4Ny40OTIgMy45Ny0xLjM1NyA2LjgzLTUuMiA2LjgzLTkuNzI4QzE5Ljk5NSA0LjU5IDE1LjUyIDAgOS45OTggMCIvPg0KPC9zdmc+DQo=" alt="github" width="18" height="18"> -->
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team__slide row">
-                  <div class="team__slide-wrap-img col-lg-10">
-                    <img class="team__slide-img" src="./steve.png" alt="Photo">
-                    <button class="team__slide-img-prev"></button>
-                    <button class="team__slide-img-next"></button>
-                  </div>
-                  <div class="team__slide-text">
-                    <div class="team__name">Jeferzon Tinoco</div>
-                    <div class="team__post">Lider Creativo</div>
-                    <div class="team__skills">
-                      <span>Skills: </span>Diseño Grafico Perfecto de Pixeles, Da Vida a los Conceptos de Nuestros Clientes, Diseñador pero tambien Codifica.
-                    </div>
-                    <div class="team__background"><span>Background: </span>UI & UX, Diseñador Grafico IDAT</div>
-                    <ul class="team__socials share-socials__list row">
-                      <li class="share-social__item">
-                        <a target="_ blank" href="" rel="nofollow">
-                          <img src="./android-10/img/share/linkedin.svg" alt="linkedin" width="18" height="18">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-            <div class="team__nav">
-              <div class="team__nav-photo offset-md-4 col-md-11">
-                <div class="owl-carousel">
-                  <img class="current" src="https://i.ibb.co/WtWbvd7/steveicono.png" alt="Photo">
-                  <img class="" src="https://i.ibb.co/xgR6NRb/icono-foto-1.jpg" alt="Photo">
-                  <img class="" src="https://i.ibb.co/Sng9W1d/iconofoto.png" alt="Photo">
-                  <img class="" src="https://i.ibb.co/JkFy0P5/icono-jesus.png" alt="Photo">
-                  <img class="" src="./steve.min.png" alt="Photo">
-                </div>
-              </div>
-              <div class="team__wrap-nav offset-md-4 col-md-11 row">
-                <div class="team__nav-info col-9">
-                  <span class="team__nav-item">01</span>
-                  <span class="team__nav-separator">/</span>
-                  <span class="team__nav-count">15</span>
-                </div>
-                <div class="team__nav-arrow col-9 row">
-                  <button class="team__nav-prev"></button>
-                  <span class="team__nav-arrow-separator"></span>
-                  <button class="team__nav-next"></button>
-                </div>
-              </div>
-            </div>
-          </div>
+    <nav class="header-default__drawer">
+      <div class="header-default__drawer-container grid">
+        <ul class="header-default__primary">
+          <li class="header-default__primary-item " style="--item-order: 1">
+            <a href="../index.html" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}"> 
+              Home.<svg class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item header-default__item--active" style="--item-order: 2">
+            <a href="../servicios/index.html" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
+              <svg class="icon--s cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item " style="--item-order: 3">
+            <a href="../Portfolio/index.html" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
+              <svg class="icon--sv cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item " style="--item-order: 4">
+            <a href="../equipo/index.html" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
+                class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item " style="--item-order: 5">
+            <a href="" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
+                class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item " style="--item-order: 6">
+            <a href="" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contacto.<svg
+                class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item " style="--item-order: 7">
+            <a href="" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Developers.<svg
+                class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+  
+        </ul>
+        <ul class="header-default__secondary">
+          <li class="header-default__secondary-item">
+            <a href="" class="cta cta--is-3" target="_blank" rel="noopener"
+              data-g-config="{'eventLabel': 'android developers', 'moduleName': 'header', 'linkUrl': 'https://developer.android.com/', 'eventCategory': 'navigation', 'title': 'menu item'}">Brezgo
+              Terminos<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>          
+        </ul>
+        
+        <div class="header-default__language">
+          <form class="language-selector" data-android-component="language-selector"> <svg
+              class="icon--svg language-selector__globe" aria-hidden="true">
+              <use xlink:href="#ico-globe"></use>
+            </svg>
+            <label class="visually-hidden" for="language-selector-android-10">Languages</label>
+            <select id="language-selector-android-10" class="language-selector__select js-language-selector"
+              aria-label="Pick a language"
+              data-g-config="{'eventLabel': 'open', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'country dropdown'}">
+              <option selected class="language-selector__option" value="/android-10/"
+                data-g-config="{'eventLabel': 'united states', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'country dropdown'}">
+                United States - English
+            </select>
+            <svg class="icon--svg language-selector__icon" aria-hidden="true">
+              <use xlink:href="#ico-arrow-round"></use>
+            </svg>
+          </form>
         </div>
       </div>
-      <section class="contact container row">
-        <form class="contact__form offset-lg-4 col-lg-10 col-xl-9">
-          <h2 class="contact__title ">Hagamos un nuevo proyecto juntos.</h2>
-          <p class="contact__text description">
-            ¡Hola! Soy
-            <span id="name" class="contact__input" contenteditable="true" placeholder="tu nombre"></span>
-            y trabajo para.
-            <span id="company" class="contact__input" contenteditable="true" placeholder="el nombre de tu compañía"></span>.
-            Nos gustaría desarrollar una aplicación. Puede comunicarse conmigo
-            <span id="email" class="contact__input" contenteditable="true" placeholder="Tu correo electrónico"></span>
-            para conversar al respecto y programar una llamada. ¡Gracias!
-          </p>
-          <div class="contact__checkbox-row row">
-            <div class="contact__wrap-checkbox">
-              <input class="contact__checkbox" id="i-confirm" type="checkbox" name="i-confirm">
-              <label class="contact__label" id="i-confirm-label" for="i-confirm"></label>
-            </div>
-            <div class="contact__wrap-text-checkbox">
-              <span class="contact__span-checked">He leído los </span>
-              <a class="contact__link link" id="terms-of-use" href="">
-                Términos de uso y el Acuerdo de usuario</a>
-            </div>
-          </div>
-          <button id="send-button" type="submit" class="contact__btn bt">enviar</button>
-        </form>
-      </section>
+    </nav>
+
+    <div class="header-subnav__toggle">
+      <div class="grid">
+        <button class="header-subnav__toggle-wrapper js-header-subnav-toggle" data-g-config="{}">
+          <span class="header-subnav__toggle-title is-7">Revisa Nuestras Soluciones.</span>
+          <svg class="icon--svg header-subnav__toggle-icon" aria-hidden="true">
+            <use xlink:href="#ico-arrow-round"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="header-subnav">
+      <div class="header-subnav__wrapper grid">
+        <ul class="header-subnav__items">
+          <li class="header-default__primary-item" style="--item-order: 5">
+            <a href="" class="cta cta--is-3"
+              data-g-config="{'eventLabel': 'overview', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Visión General<svg
+                class="icon--svg cta__icon" aria-hidden="true">
+                <use xlink:href="#ico-arrow-large"></use>
+              </svg></a>
+          </li>
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper  " style="--item-order: 6"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'solutions', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+              Ingeniería</a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'security', 'moduleName': 'header', 'linkUrl': '/enterprise/security/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Front-end<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'management', 'moduleName': 'header', 'linkUrl': '/enterprise/management/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Back-end<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Multiplatforma<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'enrollment', 'moduleName': 'header', 'linkUrl': '/enterprise/enrollment/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Base de Datos<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'enrollment', 'moduleName': 'header', 'linkUrl': '/enterprise/enrollment/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Análisis<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Integración API<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Plataforma Dedicada<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Equipo Dedicado<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Integraciones & Mejoras<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper header-default__item--active" style="--item-order: 7"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'solutions', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+              Movil</a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'security', 'moduleName': 'header', 'linkUrl': '/enterprise/security/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  iOS <svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'management', 'moduleName': 'header', 'linkUrl': '/enterprise/management/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Android OS<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'enrollment', 'moduleName': 'header', 'linkUrl': '/enterprise/enrollment/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Navegaciones<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Microinteracciones<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper " style="--item-order: 6"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'solutions', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+              UI & UX
+            </a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'security', 'moduleName': 'header', 'linkUrl': '/enterprise/security/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Interfaz Web<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'management', 'moduleName': 'header', 'linkUrl': '/enterprise/management/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Interfaz Movil<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  UI kits<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'enrollment', 'moduleName': 'header', 'linkUrl': '/enterprise/enrollment/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Maquetación e Interactividad<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper " style="--item-order: 6"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'solutions', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+              Diseño</a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'security', 'moduleName': 'header', 'linkUrl': '/enterprise/security/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Illustraciones<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'management', 'moduleName': 'header', 'linkUrl': '/enterprise/management/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Iconografia<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'employees', 'moduleName': 'header', 'linkUrl': '/enterprise/employees/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Graficos en Movimiento<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'enrollment', 'moduleName': 'header', 'linkUrl': '/enterprise/enrollment/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Identitidad Visual<svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper " style="--item-order: 9"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'support', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+              Gestión y Consultoría</a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'resources', 'moduleName': 'header', 'linkUrl': '/enterprise/resources/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Ingenieria de Procesos
+                  <svg class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" target="_blank" rel="noopener" role="menuitem"
+                  data-g-config="{'eventLabel': 'help center', 'moduleName': 'header', 'linkUrl': '', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Estrategia de marca y tecnología
+                  <svg class="icon--svg cta__icon cta__external" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" target="_blank" rel="noopener" role="menuitem"
+                  data-g-config="{'eventLabel': 'solutions directory', 'moduleName': 'header', 'linkUrl': '', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Transformación Digital<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+            </ul>
+          </li>
 
 
-      <footer class="footer">
-        <div class="footer__wrap row">
-          <span class="footer__copyright copyright col-lg-4 order-lg-1 order-4">
-            <span>© Brezgo 2019</span>
-          </span>
-          <div class="footer__contact col-lg-3 order-lg-2 order-1">
-            <!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
-            <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
-            <a class="footer__link link" href="mailto:hellobrezgo@gmail.com">Hellobrezgo@gmail.com</a>
-          </div>
-          <div class="footer__contact col-lg-3 order-lg-3 order-2">
-            <!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
-            <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
-            <a class="footer__link link" href="mailto:infobrezgo@gmail.com">Infobrezgo@gmail.com</a>
-          </div>
-          <div class="footer__contact col-lg-4 order-lg-4 order-3">
-            <!--				<img class="footer__icon" src="img/icons/map.svg" alt="">-->
-            <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDEyIDE4Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMSA2QTUgNSAwIDEgMCAxIDZjMCAxLjc4OCAxLjY2NyA1LjI1MyA1IDEwLjIyM0M5LjMzMyAxMS4yNTMgMTEgNy43ODggMTEgNnpNNiAxOEMyIDEyLjIxIDAgOC4yMSAwIDZhNiA2IDAgMSAxIDEyIDBjMCAyLjIxLTIgNi4yMS02IDEyek02IDhhMiAyIDAgMSAwIDAtNCAyIDIgMCAwIDAgMCA0em0wIDFhMyAzIDAgMSAxIDAtNiAzIDMgMCAwIDEgMCA2eiIgb3BhY2l0eT0iLjUiLz4NCjwvc3ZnPg0K" alt="">
-            <a class="footer__link link" target="_ blank" href="https://goo.gl/maps/hDpPckCmXci1NEd4A" rel="nofollow">Lima, Perú</a>
-          </div>
-          <span class="footer__author col-lg-4 order-lg-5 order-6">
-            <a class="link" target="_ blank" href="" rel="nofollow">De LATAM con <img class="corazon" src="https://i.ibb.co/5s79mW2/emoji.png" alt=""> para el Mundo</a>
-          </span>
-        </div>
-      </footer>
+          <li class="header-default__primary-item header-subnav__dropdown-wrapper " style="--item-order: 9"><a
+              class="cta cta--is-3 js-subnav-dropdown" href="javascript:void(0)" aria-haspopup="true"
+              aria-expanded="false"
+              data-g-config="{'eventLabel': 'support', 'moduleName': 'header', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Soporte</a>
+            <ul class="header-subnav__dropdown" role="menu">
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" role="menuitem"
+                  data-g-config="{'eventLabel': 'resources', 'moduleName': 'header', 'linkUrl': '/enterprise/resources/', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">Recursos<svg
+                    class="icon--svg cta__icon" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" target="_blank" rel="noopener" role="menuitem"
+                  data-g-config="{'eventLabel': 'help center', 'moduleName': 'header', 'linkUrl': '', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Ayuda<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+              <li class="header-default__secondary-item ">
+                <a href="" class="cta cta--is-3" target="_blank" rel="noopener" role="menuitem"
+                  data-g-config="{'eventLabel': 'solutions directory', 'moduleName': 'header', 'linkUrl': '', 'eventCategory': 'navigation', 'title': 'sub menu item click'}">
+                  Soluciones Desarrolladores<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
+                    <use xlink:href="#ico-arrow-large"></use>
+                  </svg></a>
+              </li>
+            </ul>
+          </li>
+          <li class="header-default__primary-item  " style="--item-order: 10">
+            <a href="" class="cta cta--is-1" target="_blank" rel="noopener"
+              data-g-config="{'eventLabel': 'get started', 'moduleName': 'header', 'linkUrl': '', 'eventCategory': 'navigation', 'title': 'sub menu cta click'}">
+              Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- Initial -->
+  <main>
+    <article>
+
 
     </article>
-
   </main>
 
 
-
-
-
-
+<!-- emoticones -->
+  <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ico-financial" viewBox="0 0 40 32">
+      <path
+        d="M32.4 0H3.6A3.584 3.584 0 00.018 3.6L0 25.2c0 1.989 1.611 3.6 3.6 3.6h28.8c1.989 0 3.6-1.611 3.6-3.6V3.6C36 1.611 34.389 0 32.4 0zm0 25.2H3.6V3.6h28.8v21.6z"
+        fill="#4285F4" />
+      <path
+        d="M16.2 23.4h3.6v-1.8h1.8c.99 0 1.8-.81 1.8-1.8v-5.4c0-.99-.81-1.8-1.8-1.8h-5.4v-1.8h7.2V7.2h-3.6V5.4h-3.6v1.8h-1.8c-.99 0-1.8.81-1.8 1.8v5.4c0 .99.81 1.8 1.8 1.8h5.4V18h-7.2v3.6h3.6v1.8z"
+        fill="#3DDC84" />
+      <symbol />
+      <symbol id="ico-hammer" viewBox="0 0 40 32">
+        <path d="M28 0l-6 5.286V0H10C4.48 0 0 3.947 0 8.81h10v5.285h12V8.81l6 5.285h4V0h-4z" fill="#4285F4" />
+        <path d="M10 17.619v12.333c0 .97.9 1.762 2 1.762h8c1.1 0 2-.793 2-1.762V17.62H10z" fill="#3DDC84" />
+      </symbol>
+      <symbol id="ico-pad" viewBox="0 0 28 36">
+        <defs>
+          <path id="a" d="M0 33h27V0H0z" />
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+          <path
+            d="M13.5 6a1.5 1.5 0 11-.001-2.998A1.5 1.5 0 0113.5 6zM27 6a3 3 0 00-3-3h-6.277c-.616-1.74-2.266-3-4.223-3-1.958 0-3.607 1.26-4.223 3H3a3 3 0 00-3 3v2.065h27V6z"
+            fill="#3DDC84" />
+          <mask id="b" fill="#fff">
+            <use xlink:href="#a" />
+          </mask>
+          <path d="M6 27.7h10.5v-3H6v3zm0-6h15v-3H6v3zm0-6h15v-3H6v3zM0 30a3 3 0 003 3h21a3 3 0 003-3V9.565H0V30z"
+            fill="#4285F4" mask="url(#b)" />
+        </g>
+      </symbol>
+      <symbol id="ico-healthcare" viewBox="0 0 36 36">
+        <g fill="none" fill-rule="evenodd">
+          <path d="M-6-6h48v48H-6z" />
+          <g fill-rule="nonzero">
+            <path
+              d="M30.444 2H5.556a3.54 3.54 0 00-3.538 3.556L2 30.444A3.555 3.555 0 005.556 34h24.888A3.555 3.555 0 0034 30.444V5.556A3.555 3.555 0 0030.444 2z"
+              stroke="#4285F4" stroke-width="4" />
+            <path fill="#3DDC84" d="M28.667 21.556h-7.111v7.11h-7.112v-7.11h-7.11v-7.112h7.11v-7.11h7.112v7.11h7.11z" />
+          </g>
+        </g>
+        <symbol />
+        <symbol id="ico-store" viewBox="0 0 40 32">
+          <path d="M36 20v-4L34 6H2L0 16v4h2v12h20V20h8v12h4V20h2zm-18 8H6v-8h12v8z" fill="#4285F4" />
+          <path fill="#3DDC84" d="M34 0H2v4h32z" />
+          <symbol />
+          <symbol id="ico-hotel" viewBox="0 0 40 32">
+            <path
+              d="M29.455 3.273H16.364v11.454H3.273V0H0v24.545h3.273v-4.909h29.454v4.91H36V9.817a6.544 6.544 0 00-6.545-6.545z"
+              fill="#4285F4" />
+            <path
+              d="M9.818 13.09c2.708 0 4.91-2.2 4.91-4.908s-2.202-4.91-4.91-4.91S4.91 5.475 4.91 8.183 7.11 13.09 9.82 13.09z"
+              fill="#3DDC84" />
+            <symbol />
+            <symbol id="material-done" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+            </symbol>
+  </svg>
   <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg">
     <symbol id="andy-logo" viewBox="0 0 642 362">
       <path
@@ -3291,9 +3590,65 @@ class="header-default header-default--transparent">
       <path fill="none" d="M0 0h47.99v48H0z"></path>
     </symbol>
   </svg>
+
+  <section class="contact container row">
+    <form class="contact__form offset-lg-4 col-lg-10 col-xl-9">
+      <h2 class="contact__title ">Hagamos un nuevo proyecto juntos.</h2>
+      <p class="contact__text description">
+        ¡Hola! Soy
+        <span id="name" class="contact__input" contenteditable="true" placeholder="tu nombre"></span>
+        y trabajo para.
+        <span id="company" class="contact__input" contenteditable="true" placeholder="el nombre de tu compañía"></span>.
+        Nos gustaría desarrollar una aplicación. Puede comunicarse conmigo
+        <span id="email" class="contact__input" contenteditable="true" placeholder="Tu correo electrónico"></span>
+        para conversar al respecto y programar una llamada. ¡Gracias!
+      </p>
+      <div class="contact__checkbox-row row">
+        <div class="contact__wrap-checkbox">
+          <input class="contact__checkbox" id="i-confirm" type="checkbox" name="i-confirm">
+          <label class="contact__label" id="i-confirm-label" for="i-confirm"></label>
+        </div>
+        <div class="contact__wrap-text-checkbox">
+          <span class="contact__span-checked">He leído los </span>
+          <a class="contact__link link" id="terms-of-use" href="">
+            Términos de uso y el Acuerdo de usuario</a>
+        </div>
+      </div>
+      <button id="send-button" type="submit" class="contact__btn bt">enviar</button>
+    </form>
+  </section>
+
+<footer class="footer">
+		<div class="footer__wrap row">
+			<span class="footer__copyright copyright col-lg-4 order-lg-1 order-4">
+				<span>© Brezgo 2019</span>
+			</span>
+			<div class="footer__contact col-lg-3 order-lg-2 order-1">
+				<!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
+				<img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
+				<a class="footer__link link" href="mailto:hellobrezgo@gmail.com">Hellobrezgo@gmail.com</a>
+			</div>
+			<div class="footer__contact col-lg-3 order-lg-3 order-2">
+				<!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
+				<img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
+				<a class="footer__link link" href="mailto:infobrezgo@gmail.com">Infobrezgo@gmail.com</a>
+			</div>
+			<div class="footer__contact col-lg-4 order-lg-4 order-3">
+				<!--				<img class="footer__icon" src="img/icons/map.svg" alt="">-->
+				<img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDEyIDE4Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMSA2QTUgNSAwIDEgMCAxIDZjMCAxLjc4OCAxLjY2NyA1LjI1MyA1IDEwLjIyM0M5LjMzMyAxMS4yNTMgMTEgNy43ODggMTEgNnpNNiAxOEMyIDEyLjIxIDAgOC4yMSAwIDZhNiA2IDAgMSAxIDEyIDBjMCAyLjIxLTIgNi4yMS02IDEyek02IDhhMiAyIDAgMSAwIDAtNCAyIDIgMCAwIDAgMCA0em0wIDFhMyAzIDAgMSAxIDAtNiAzIDMgMCAwIDEgMCA2eiIgb3BhY2l0eT0iLjUiLz4NCjwvc3ZnPg0K" alt="">
+				<a class="footer__link link" target="_ blank" href="https://goo.gl/maps/hDpPckCmXci1NEd4A" rel="nofollow">Lima, Perú</a>
+			</div>
+			<span class="footer__author col-lg-4 order-lg-5 order-6">
+				<a class="link" target="_ blank" href="" rel="nofollow">De LATAM con <img class="corazon" src="https://i.ibb.co/5s79mW2/emoji.png" alt=""> para el Mundo</a>
+			</span>
+		</div>
+  </footer>
+  </footer>
+  <!-- footer -->
   <script defer src="../static/js/common.min.js"></script>
   <script src="../static/js/main.js"></script>
-  <script defer src="../static/js/home/v2/main.min.js"></script>
+  <script defer src="../static/js/enterprise_devices/v2/main.min.js"></script>
+
 </body>
 
 </html>
