@@ -278,18 +278,18 @@
   }
 }
 
-.wt-phone-screen-video {
+.wt-phone-scree-video {
   /* height: 100%;
   width: 100%; */
   line-height: 0;
   contain: content;
 }
-.wt-phone-screen-video video {
+.wt-phone-scree-video video {
   height: 100%;
   width: 100%;
 }
 
-.ie .wt-phone-screen-video video {
+.ie .wt-phone-scree-video video {
   -webkit-transform: scale(1.011);
   -moz-transform: scale(1.011);
   -ms-transform: scale(1.011);
@@ -297,7 +297,7 @@
   transform: scale(1.011);
 }
 
-.wt-phone-screen-img {
+.wt-phone-scree-img {
   height: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -307,29 +307,6 @@
 }
 .wt-phone-screen-video + .wt-phone-screen-img {
   display: none;
-}
-.loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url('/static/video/carga.mp4') 50% 50% no-repeat #fdb813;
-  background-size: 150px;
-  opacity: .8;
-}
-@media (min-width: 1600px) {
-  .loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('/static/video/carga.mp4') 50% 50% no-repeat white;
-    opacity: .8;
-  }
 }
 .bt {
   position: relative;
@@ -350,6 +327,10 @@
   border-color: #f2f2f2;
   background: #f2f2f2;
   color: #787878;
+}
+
+.corazon{
+  width: 20px;
 }
 :root {
   --color-is-1: #000;
@@ -982,7 +963,7 @@
   height: 100%;
   position: relative;
   z-index: 10;
-  background: #fdb813;
+  background: #fff;
 }
 .header-default--nav-open .header-default__wrapper,
 .header-default--search-open .header-default__wrapper {
@@ -3113,7 +3094,7 @@ main:after {
     height: 100%;
     padding: 0;
     width: 100%;
-    background: #fdb813;
+    background: #fff;
   }
   .header-default__primary-item {
     height: 100%;
@@ -3357,7 +3338,7 @@ main:after {
     --dynamic-scale: 2.9;
     height: 100vh;
     max-height: 75vw;
-    background: #fdb813;
+    background: #fff;
   }
   .hero-looper__wrapper {
     grid-template-rows: [padding-top] 160px [animation-row] auto [padding-bottom] 160px;

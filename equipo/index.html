@@ -28,11 +28,6 @@
   <meta name="theme-color" content="#000">
   <link href="/" rel="shortcut icon">
   <link href="index.html" rel="canonical">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script type="text/javascript">
-  $(window).load(function() {
-      $(".loader").fadeOut("slow");
-  });
   </script>
   <style>
     :root {
@@ -2592,7 +2587,7 @@
   
 <!-- <div class="loader"></div> -->
 
-<!-- header -->
+<!-- section header-->
 <header data-android-component="header-default" data-android-component-config="{'isSticky': 1}"
 class="header-default header-default--transparent">
 <div class="header-default__wrapper">
@@ -2600,8 +2595,8 @@ class="header-default header-default--transparent">
     <div class="header-default__logo-container">
       <a class="header-default__logo js-logo" href="index.html"
         data-g-config="{'eventLabel': '', 'moduleName': 'header', 'linkUrl': '/', 'eventCategory': 'navigation', 'title': 'logo'}">
-        <span class="visually-hidden"> brezgo </span>
-        <img class="logo-brezgo" src="https://i.ibb.co/x3cmQMH/Artboard-1post.png" alt="logo-brezgo">
+        <span class="visually-hidden"> Brezgo </span>
+        <!-- <img class="logo-brezgo" src="https://i.ibb.co/x3cmQMH/Artboard-1post.png" alt="logo-brezgo"> -->
           <use xlink:href="#android-logo"></use>
         </svg>
       </a>
@@ -2610,42 +2605,42 @@ class="header-default header-default--transparent">
       <ul class="header-default__primary">
         <li class="header-default__primary-item header-default__item--active" style="--item-order: 1">
           <a href="" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}">What
-            is Brezgo<svg class="icon--svg cta__icon" aria-hidden="true">
+            data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}">Home.
+            <svg class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
         </li>
         <li class="header-default__primary-item " style="--item-order: 2">
-          <a href="../enterprise/devices/index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Solutions
+          <a href="./servicios/index.html" class="cta cta--is-3"
+            data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
             <svg class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
         </li>
         <li class="header-default__primary-item " style="--item-order: 3">
-          <a href="../Portfolio/index.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portfolio
+          <a href="./portafolio/index.html" class="cta cta--is-3"
+            data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
             <svg class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
         </li>
         <li class="header-default__primary-item " style="--item-order: 4">
-          <a href="../home1.html.html" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Team<svg
+          <a href="./equipo/index.html" class="cta cta--is-3"
+            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
               class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
         </li>
         <li class="header-default__primary-item " style="--item-order: 5">
           <a href="" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog<svg
+            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
               class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
         </li>
         <li class="header-default__primary-item " style="--item-order: 6">
           <a href="" class="cta cta--is-3"
-            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contacts<svg
+            data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contactanos.<svg
               class="icon--svg cta__icon" aria-hidden="true">
               <use xlink:href="#ico-arrow-large"></use>
             </svg></a>
@@ -2664,17 +2659,10 @@ class="header-default header-default--transparent">
         </li>
         <li class="social-nav__item" style="--item-order: 9">
           <a target="_ blank" href="https://github.com/brezgo" rel="nofollow">
-
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4NCiAgICA8cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05Ljk5NyAwQzQuNDc3IDAgMCA0LjU5IDAgMTAuMjUyYzAgNC41MyAyLjg2NSA4LjM3MyA2LjgzNyA5LjczLjUuMDk0LjY4My0uMjIzLjY4My0uNDk0IDAtLjI0NS0uMDEtMS4wNTItLjAxNC0xLjkwOS0yLjc4MS42Mi0zLjM2OC0xLjIxLTMuMzY4LTEuMjEtLjQ1NS0xLjE4NS0xLjExLTEuNS0xLjExLTEuNS0uOTA3LS42MzYuMDY4LS42MjMuMDY4LS42MjMgMS4wMDQuMDcyIDEuNTMzIDEuMDU3IDEuNTMzIDEuMDU3Ljg5MiAxLjU2NyAyLjMzOSAxLjExNCAyLjkxLjg1Mi4wODktLjY2My4zNDgtMS4xMTUuNjM0LTEuMzcxLTIuMjItLjI2LTQuNTU1LTEuMTM4LTQuNTU1LTUuMDY3IDAtMS4xMi4zOS0yLjAzNCAxLjAzLTIuNzUyLS4xMDQtLjI1OC0uNDQ2LTEuMy4wOTctMi43MTMgMCAwIC44NC0uMjc2IDIuNzUgMS4wNWE5LjM1NCA5LjM1NCAwIDAgMSAyLjUwMi0uMzQ0Yy44NS4wMDQgMS43MDYuMTE4IDIuNTA1LjM0NSAxLjkwOC0xLjMyNyAyLjc0Ni0xLjA1MSAyLjc0Ni0xLjA1MS41NDQgMS40MTIuMjAyIDIuNDU1LjA5OCAyLjcxMy42NDEuNzE4IDEuMDMgMS42MzMgMS4wMyAyLjc1MiAwIDMuOTM4LTIuMzQgNC44MDUtNC41NjYgNS4wNTkuMzU5LjMxOC42NzguOTQyLjY3OCAxLjg5OCAwIDEuMzcyLS4wMTEgMi40NzYtLjAxMSAyLjgxNCAwIC4yNzMuMTguNTkyLjY4Ny40OTIgMy45Ny0xLjM1NyA2LjgzLTUuMiA2LjgzLTkuNzI4QzE5Ljk5NSA0LjU5IDE1LjUyIDAgOS45OTggMCIvPg0KPC9zdmc+DQo=" alt="Open Exyte's Github in new tab">
           </a>
-        </li>
-        <li class="social-nav__item" style="--item-order:10 ">
-          <a target="_ blank" href="https://clutch.co/profile/brezgo" rel="nofollow">
-
-            <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjE4cHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDE4IDIwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTIuNiAoNjc0OTEpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPg0KICAgIDx0aXRsZT5jbHV0Y2g8L3RpdGxlPg0KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPg0KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iY2x1dGNoIiBmaWxsPSIjMDAwMDAwIj4NCiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMy41MzA4NjQyLDE0LjEyMzQ1NjggQzEyLjUwMzA3ODYsMTUuMDMxNjczNyAxMS4xNzM5MTQxLDE1LjUyNDYwODggOS44MDI0NjkxMywxNS41MDYxNzI5IEM2LjY0MTk3NTMxLDE1LjUwNjE3MjkgNC4zMjA5ODc2NiwxMy4xODUxODUyIDQuMzIwOTg3NjYsMTAgQzQuMzIwOTg3NjYsNi44MTQ4MTQ4MSA2LjU2NzkwMTIzLDQuNTkyNTkyNTkgOS44MDI0NjkxMyw0LjU5MjU5MjU5IEMxMS4xNzY5ODMsNC41NzQwMDU2IDEyLjUxMTE5NTIsNS4wNTY3Nzk3NCAxMy41NTU1NTU2LDUuOTUwNjE3MjkgTDE0LjI0NjkxMzYsNi41NDMyMDk4OCBMMTcuMzA4NjQyLDMuNDgxNDgxNDggTDE2LjU0MzIwOTksMi43NjU0MzIxIEMxNC42OTEyOTAzLDEuMTEwODgyMzQgMTIuMjg1NTk3MywwLjIxMjA1MTk1MyA5LjgwMjQ2OTEzLDAuMjQ2OTEzNTggQzQuMTIzNDU2NzksMC4yNDY5MTM1OCAwLDQuMzQ1Njc5MDEgMCw5Ljk3NTMwODY0IEMwLDE1LjYwNDkzODIgNC4yMjIyMjIyMiwxOS44MjcxNjA0IDkuODAyNDY5MTMsMTkuODI3MTYwNCBDMTIuMzA5MTUxMiwxOS44NjA3NDEzIDE0LjczNTQzMywxOC45NDMxNjU3IDE2LjU5MjU5MjYsMTcuMjU5MjU5MiBMMTcuMzMzMzMzMywxNi41Njc5MDEyIEwxNC4yMjIyMjIyLDEzLjUwNjE3MjkgTDEzLjUzMDg2NDIsMTQuMTIzNDU2OCBaIiBpZD0iUGF0aCI+PC9wYXRoPg0KICAgICAgICAgICAgPGNpcmNsZSBpZD0iT3ZhbCIgY3g9IjkuNjU0MzIwOTkiIGN5PSIxMC4wMjQ2OTE0IiByPSIzLjI4Mzk1MDYyIj48L2NpcmNsZT4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg==" alt="Open Exyte's Clutch in new tab">
-          </a>
-        </li>
-      </ul> -->
+        </li> -->
+      </ul>
       
     </nav>
 
@@ -2698,54 +2686,55 @@ class="header-default header-default--transparent">
   <div class="header-default__drawer-container grid">
     <ul class="header-default__primary">
       <li class="header-default__primary-item header-default__item--active" style="--item-order: 1">
-        <a href="https://www.android.com/what-is-android/" class="cta cta--is-3"
+        <a href="index.html" class="cta cta--is-3"
           data-g-config="{'eventLabel': 'what is android', 'moduleName': 'header', 'linkUrl': '/what-is-android/', 'eventCategory': 'navigation', 'title': 'menu item'}"> 
-          Home<svg class="icon--svg cta__icon" aria-hidden="true">
+          Home.<svg class="icon--svg cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
       <li class="header-default__primary-item " style="--item-order: 2">
-        <a href="index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Servicios
+        <a href="./servicios/index.html" class="cta cta--is-3"
+          data-g-config="{'eventLabel': 'android 10', 'moduleName': 'header', 'linkUrl': '/android-10/', 'eventCategory': 'navigation', 'title': 'menu item'}">Stack de Servicios.
           <svg class="icon--s cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
       <li class="header-default__primary-item " style="--item-order: 3">
-        <a href="../Portfolio/index.html" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Trabajos
+        <a href="./portafolio/index.html" class="cta cta--is-3"
+          data-g-config="{'eventLabel': 'phones & tablets', 'moduleName': 'header', 'linkUrl': '/phones-tablets/', 'eventCategory': 'navigation', 'title': 'menu item'}">Portafolio.
           <svg class="icon--sv cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
       <li class="header-default__primary-item " style="--item-order: 4">
-        <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo<svg
+        <a href="./equipo/index.html" class="cta cta--is-3"
+          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Equipo.<svg
             class="icon--svg cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
-      <li class="header-default__primary-item " style="--item-order: 4">
+      <li class="header-default__primary-item " style="--item-order: 5">
         <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog<svg
+          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Blog.<svg
             class="icon--svg cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
-      <li class="header-default__primary-item " style="--item-order: 4">
+      <li class="header-default__primary-item " style="--item-order: 6">
         <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contactanos<svg
+          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Contacto.<svg
             class="icon--svg cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
-      <li class="header-default__primary-item " style="--item-order: 4">
+      <li class="header-default__primary-item " style="--item-order: 7">
         <a href="" class="cta cta--is-3"
-          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Developers<svg
+          data-g-config="{'eventLabel': 'enterprise', 'moduleName': 'header', 'linkUrl': '/enterprise/', 'eventCategory': 'navigation', 'title': 'menu item'}">Developers.<svg
             class="icon--svg cta__icon" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
       </li>
+
     </ul>
     <ul class="header-default__secondary">
       <li class="header-default__secondary-item">
@@ -2754,7 +2743,7 @@ class="header-default header-default--transparent">
           Terminos<svg class="icon--svg cta__icon cta__external" aria-hidden="true">
             <use xlink:href="#ico-arrow-large"></use>
           </svg></a>
-      </li>
+      </li>          
     </ul>
     
     <div class="header-default__language">
@@ -3157,20 +3146,20 @@ class="header-default header-default--transparent">
           <div class="footer__contact col-lg-3 order-lg-2 order-1">
             <!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
             <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
-            <a class="footer__link link" href="mailto:sales@exyte.com">sales@brezgo.com</a>
+            <a class="footer__link link" href="mailto:hellobrezgo@gmail.com">Hellobrezgo@gmail.com</a>
           </div>
           <div class="footer__contact col-lg-3 order-lg-3 order-2">
             <!--				<img class="footer__icon" src="img/icons/email.svg" alt="">-->
             <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE4IDE0Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xNS45OSAxLjI2MkExLjk5IDEuOTkgMCAwIDAgMTUgMUgzYy0uMzYgMC0uNjk4LjA5NS0uOTkuMjYyTDkgNy44MTVsNi45OS02LjU1M3ptLjcxOC42OTdMOSA5LjE4NSAxLjI5MiAxLjk2QTEuOTkgMS45OSAwIDAgMCAxIDN2OGEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJWM2ExLjk5IDEuOTkgMCAwIDAtLjI5Mi0xLjA0MXpNMyAwaDEyYTMgMyAwIDAgMSAzIDN2OGEzIDMgMCAwIDEtMyAzSDNhMyAzIDAgMCAxLTMtM1YzYTMgMyAwIDAgMSAzLTN6IiBvcGFjaXR5PSIuNSIvPg0KPC9zdmc+DQo=" alt="">
-            <a class="footer__link link" href="mailto:info@exyte.com">info@brezgo.com</a>
+            <a class="footer__link link" href="mailto:infobrezgo@gmail.com">Infobrezgo@gmail.com</a>
           </div>
           <div class="footer__contact col-lg-4 order-lg-4 order-3">
             <!--				<img class="footer__icon" src="img/icons/map.svg" alt="">-->
             <img class="footer__icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDEyIDE4Ij4NCiAgICA8cGF0aCBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMSA2QTUgNSAwIDEgMCAxIDZjMCAxLjc4OCAxLjY2NyA1LjI1MyA1IDEwLjIyM0M5LjMzMyAxMS4yNTMgMTEgNy43ODggMTEgNnpNNiAxOEMyIDEyLjIxIDAgOC4yMSAwIDZhNiA2IDAgMSAxIDEyIDBjMCAyLjIxLTIgNi4yMS02IDEyek02IDhhMiAyIDAgMSAwIDAtNCAyIDIgMCAwIDAgMCA0em0wIDFhMyAzIDAgMSAxIDAtNiAzIDMgMCAwIDEgMCA2eiIgb3BhY2l0eT0iLjUiLz4NCjwvc3ZnPg0K" alt="">
-            <a class="footer__link link" target="_ blank" href="https://goo.gl/maps/Bx4XckDoSB2Ah938A" rel="nofollow">408 Broadway, NYC</a>
+            <a class="footer__link link" target="_ blank" href="https://goo.gl/maps/hDpPckCmXci1NEd4A" rel="nofollow">Lima, Perú</a>
           </div>
           <span class="footer__author col-lg-4 order-lg-5 order-6">
-            <a class="link" target="_ blank" href="https://anthonyslab.com/" rel="nofollow">Anthony’s Lab</a>
+            <a class="link" target="_ blank" href="" rel="nofollow">De LATAM con <img class="corazon" src="https://i.ibb.co/5s79mW2/emoji.png" alt=""> para el Mundo</a>
           </span>
         </div>
       </footer>

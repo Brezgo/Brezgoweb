@@ -14,12 +14,11 @@ html {
 }
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
-  background: #fdb813;
 }
 body {
   min-height: 100%;
   margin: 0;
-  background-color: #FFFFFF;
+  background-color: #000;
   font-size: 16px;
   text-align: left;
   color: #000000;
@@ -53,7 +52,7 @@ a {
   display: inline-block;
   text-decoration: none;
   background-color: transparent;
-  color: #fff;
+  color: #000;
   transition: background 0.35s, border 0.35s, opacity 0.35s;
 }
 /* a:hover {
