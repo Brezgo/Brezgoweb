@@ -541,13 +541,13 @@ width: 0px;
   --color-is-13: #e9e9e9;
   --color-is-14: #000;
   --color-is-15:#000;
-  --color-is-16: url(../../img/brezgolab/noise.png);
+  --color-is-16: url(https://i.ibb.co/3YyYPv0/logo-brezgo-2.png);
   --color-is-17: #9644DD;
 }
 .theme--dark {
   --color-is-1: #fff;
   --color-is-2: #000;
-  --color-is-3: #0d1322;
+  --color-is-3: #000;
   --color-is-4: #073042;
   --color-is-5: #000;
   --color-is-6: #fff;
@@ -560,7 +560,7 @@ width: 0px;
   --color-is-13: #4c4c4c;
   --color-is-14: #fff;
   --color-is-15: #000;
-  --color-is-16: url(../../img/brezgolab/noise.png);
+  --color-is-16: url(https://i.ibb.co/0rccZDY/logo-brezgo-jade.png);
   --color-is-17: #3BE8B0;
   background-color: #000;
 }
@@ -1193,7 +1193,6 @@ width: 0px;
   position: relative;
   z-index: 10;
   background-color: var(--color-is-3);
-  background-image: var(--color-is-16);
 }
 .header-default--nav-open .header-default__wrapper,
 .header-default--search-open .header-default__wrapper {
@@ -3700,7 +3699,6 @@ body.theme--dark .content-dark__image--light {
 }
 .hero-devices:before {
   background-color: var(--color-is-3);
-  background-image: var(--color-is-16);
   content: "";
   height: 100%;
   position: absolute;
@@ -10166,7 +10164,6 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
   background-color: var(--color-is-3);
-  background-image: var(--color-is-16);
 }
 body {
   min-height: 100%;
