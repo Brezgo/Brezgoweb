@@ -39,7 +39,7 @@
 
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: 'Circe-Light', sans-serif;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -291,7 +291,7 @@ header nav {
   left: 0;
   right: 0;
   background-color: rgba(13, 19, 34, 0.9);
-  background-image: url(../images/noise.png);
+  background-image: url(../../img/brezgolab/noise.png);
   background-size: 32%;
   display: none;
   flex-direction: column;
