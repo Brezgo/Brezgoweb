@@ -476,7 +476,30 @@ width: 0px;
   }
 }
   */
-
+  svg.waves {
+    z-index: -1;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    filter: drop-shadow(0 0 15px #3be8b0);
+    overflow-x: hidden;
+  }
+  svg.waves path {
+    fill: none;
+    stroke: #3be8b0;
+    stroke-width: 10px;
+    stroke-dasharray: 1650;
+    stroke-dashoffset: 0;
+    animation: waves 1.8s ease-in-out;
+  }
+  @keyframes waves {
+    0% {
+      stroke-dashoffset: 1650;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
 .logo-brezgo{
   margin: 15px 0 0 3px;
   width: 65px;
