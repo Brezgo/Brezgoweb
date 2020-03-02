@@ -2818,7 +2818,7 @@
       <div class="header-default__grid grid">
         <div class="header-default__logo-container">
           <a class="header-default__logo js-logo" href="index.html"
-            data-g-config="{'eventLabel': '', 'moduleName': 'header', 'linkUrl': '/', 'eventCategory': 'navigation', 'title': 'logo'}">
+            data-g-config="{'eventLabel': '', 'moduleName': 'header', 'linkUrl': 'http://brezgo.com/', 'eventCategory': 'navigation', 'title': 'logo'}">
             <img class="logo-brezgo" src="./static/img/logobrezgo.svg" alt="logo-brezgo">       
           </a>
         </div>       
@@ -4419,7 +4419,35 @@
             </svg></a>
         </div>
       </div>
-      </section>    
+      </section>  
+      
+<!-- footer -->
+      <section class="contact container row">
+        <form class="contact__form offset-lg-4 col-lg-10 col-xl-9">
+          <h2 class="contact__title ">Hagamos un nuevo proyecto juntos.</h2>
+          <p class="contact__text description">
+            ¡Hola! Soy
+            <span id="name" class="contact__input" contenteditable="true" placeholder="tu nombre"></span>
+            y trabajo para.
+            <span id="company" class="contact__input" contenteditable="true" placeholder="el nombre de tu compañía"></span>.
+            Nos gustaría desarrollar una aplicación. Puede comunicarse conmigo
+            <span id="email" class="contact__input" contenteditable="true" placeholder="Tu correo electrónico"></span>
+            para conversar al respecto y programar una llamada. ¡Gracias!
+          </p>
+          <div class="contact__checkbox-row row">
+            <div class="contact__wrap-checkbox">
+              <input class="contact__checkbox" id="i-confirm" type="checkbox" name="i-confirm">
+              <label class="contact__label" id="i-confirm-label" for="i-confirm"></label>
+            </div>
+            <div class="contact__wrap-text-checkbox">
+              <span class="contact__span-checked">He leído los </span>
+              <a class="contact__link link" id="terms-of-use" href="">
+                Términos de uso y el Acuerdo de usuario</a>
+            </div>
+          </div>
+          <button id="send-button" type="submit" class="contact__btn bt">enviar</button>
+        </form>
+      </section>
     </article>
   </main>
 
@@ -4647,33 +4675,7 @@
   </svg>
 <!-- iconografia -->
 
-<!-- footer -->
-  <section class="contact container row">
-    <form class="contact__form offset-lg-4 col-lg-10 col-xl-9">
-      <h2 class="contact__title ">Hagamos un nuevo proyecto juntos.</h2>
-      <p class="contact__text description">
-        ¡Hola! Soy
-        <span id="name" class="contact__input" contenteditable="true" placeholder="tu nombre"></span>
-        y trabajo para.
-        <span id="company" class="contact__input" contenteditable="true" placeholder="el nombre de tu compañía"></span>.
-        Nos gustaría desarrollar una aplicación. Puede comunicarse conmigo
-        <span id="email" class="contact__input" contenteditable="true" placeholder="Tu correo electrónico"></span>
-        para conversar al respecto y programar una llamada. ¡Gracias!
-      </p>
-      <div class="contact__checkbox-row row">
-        <div class="contact__wrap-checkbox">
-          <input class="contact__checkbox" id="i-confirm" type="checkbox" name="i-confirm">
-          <label class="contact__label" id="i-confirm-label" for="i-confirm"></label>
-        </div>
-        <div class="contact__wrap-text-checkbox">
-          <span class="contact__span-checked">He leído los </span>
-          <a class="contact__link link" id="terms-of-use" href="">
-            Términos de uso y el Acuerdo de usuario</a>
-        </div>
-      </div>
-      <button id="send-button" type="submit" class="contact__btn bt">enviar</button>
-    </form>
-  </section>
+
 
 <!-- footer -->
 	<footer class="footer">
