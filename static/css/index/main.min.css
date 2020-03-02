@@ -10224,6 +10224,7 @@ sup {
 }
 img {
   border-style: none;
+  width: 18px;
 }
 label {
   display: inline-block;
