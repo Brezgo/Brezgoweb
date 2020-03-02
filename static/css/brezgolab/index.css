@@ -306,6 +306,7 @@ header nav a {
   line-height: 80px;
   width: 100%;
   transition: color 0.3s ease;
+  
 }
 header nav a:last-child {
   margin-right: 0;
