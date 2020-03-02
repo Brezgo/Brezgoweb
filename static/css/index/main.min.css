@@ -506,6 +506,18 @@ width: 0px;
 .cerebro{
   width: 450px;
 }
+.pill {
+  display: inline-block;
+  background-color: rgba(59, 232, 176, 0.21);
+  border-radius: 50px;
+  height: 20px;
+  padding: 0 18px;
+  font-size: 13px;
+  color: #3be8b0;
+  font-weight: 500;
+  line-height: 1.6em;
+  vertical-align: middle;
+}
 :root {
   --color-is-1: #000;
   --color-is-2: #fff;
@@ -4820,7 +4832,7 @@ main:after {
     -webkit-box-align: center;
     align-items: center;
     display: -webkit-box;
-    display: flex;
+    /* display: flex; */
     height: 100%;
     padding: 0;
     position: inherit;
