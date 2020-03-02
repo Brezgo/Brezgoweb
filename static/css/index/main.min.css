@@ -33,7 +33,6 @@
   font-style: normal;
 }
  
-
 /* phone simulator */
 .phone {
   border: 40px solid var(--color-is-1);
@@ -472,12 +471,12 @@ width: 0px;
   */
 
 .logo-brezgo{
-  width: 70px;
   margin: 15px 0 0 0px;
+      width: 55px;
 }
 @media (min-width: 1600px) {
   .logo-brezgo{
-    width: 80px;
+    width: 65px;
     margin: 12px 0 0 0px;
   }
 }
@@ -514,7 +513,7 @@ width: 0px;
   --color-is-4: #fff;
   --color-is-5: #fff;
   --color-is-6: #000;
-  --color-is-7: #98ca3f;
+  --color-is-7: #00ec8d;
   --color-is-8: #fff;
   --color-is-9: #fff;
   --color-is-10: #707173;
@@ -524,7 +523,7 @@ width: 0px;
   --color-is-14: #000;
   --color-is-15:#000;
   --color-is-16: url(https://i.ibb.co/3YyYPv0/logo-brezgo-2.png);
-  --color-is-17: #4285f4;
+  --color-is-17: #9644DD;
 }
 .theme--dark {
   --color-is-1: #fff;
@@ -533,7 +532,7 @@ width: 0px;
   --color-is-4: #073042;
   --color-is-5: #000;
   --color-is-6: #fff;
-  --color-is-7: #00d286;
+  --color-is-7: #9644DD;
   --color-is-8: #101111;
   --color-is-9: #8ab4f8;
   --color-is-10: #10151c;
@@ -543,7 +542,7 @@ width: 0px;
   --color-is-14: #fff;
   --color-is-15: #000;
   --color-is-16: url(https://i.ibb.co/0rccZDY/logo-brezgo-jade.png);
-  --color-is-17: #5214ff;
+  --color-is-17: #00ec8d;
   background-color: #000;
 }
 .accordion__item-button,
@@ -1276,7 +1275,6 @@ width: 0px;
   display: inline-block;
   height: 100%;
   position: absolute;
-  width: 110px;
 }
 .header-default__logo > * {
   pointer-events: none;
@@ -10225,6 +10223,7 @@ sup {
 img {
   border-style: none;
   width: 18px;
+  /* opacity: 0.7; */
 }
 label {
   display: inline-block;
