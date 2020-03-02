@@ -1193,6 +1193,7 @@ width: 0px;
   position: relative;
   z-index: 10;
   background-color: var(--color-is-3);
+  background-image: var(--color-is-16);
 }
 .header-default--nav-open .header-default__wrapper,
 .header-default--search-open .header-default__wrapper {
@@ -10165,6 +10166,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
   background-color: var(--color-is-3);
+  background-image: var(--color-is-16);
 }
 body {
   min-height: 100%;
