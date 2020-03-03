@@ -3528,7 +3528,10 @@ body.theme--dark .content-dark__image--light {
 }
 .content-multimedia .accordion--is-1 .accordion__item-content p {
   padding: 17px 0 32px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  font-family: "Circe-Regular", sans-serif;
+  color: #808080;
+  font-size: 15px;
 }
 .content-multimedia .cta__external {
   stroke: var(--color-is-6);
