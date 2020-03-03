@@ -2417,6 +2417,9 @@ width: 0px;
   overflow: hidden;
   word-spacing: 9999rem;
   font-size: 18px;
+  font-family: "Circe-Regular", sans-serif;
+  /* color: #808080; */
+  font-size: 15px;
 
 }
 
@@ -2520,7 +2523,8 @@ width: 0px;
   text-align: left;
 }
 .accordion--is-1 .accordion__item-button h3 {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Circe-Regular", sans-serif;
 }
 .accordion--is-1 .accordion__item-toggle {
   border: 1px solid #e7ebec;
