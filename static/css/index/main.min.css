@@ -839,7 +839,7 @@ width: 0px;
 .cta {
   cursor: pointer;
   display: inline-block;
-  /* font-family: 'Circe-Regular', sans-serif; */
+  font-family: 'Circe-Regular', sans-serif;
   text-decoration: none;
   width: auto;
 }
