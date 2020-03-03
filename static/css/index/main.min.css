@@ -548,6 +548,29 @@ width: 0px;
   line-height: 1.6em;
   vertical-align: middle;
 }
+
+@media (min-width: 360px){
+.btn {
+  margin: 0px 0 0 30px;
+}
+.b {
+  margin: 0px 0 0 30px;
+}
+}
+
+@media (min-width: 411px){
+.btn {
+    margin: 0px 0 0 57px;
+}
+.bt{
+  margin: 0px 0 0 27px;
+}
+.b {
+    margin: 0px 0 0 57px;
+}
+}
+
+
 :root {
   --color-is-1: #000;
   --color-is-2: #fff;
@@ -6287,7 +6310,6 @@ header,
     transition: background 0.35s, border 0.35s;
     cursor: pointer;
     width: 300px;
-    margin: 50px 0 0 57px;
   }
   @media (min-width: 1600px) {
     .b {
@@ -6319,7 +6341,6 @@ header,
   transition: background 0.35s, border 0.35s;
   cursor: pointer;
   width: 300px;
-  margin: 0 0 0 27px;
 }
 
 .btn::after {
@@ -9964,10 +9985,10 @@ img.quote-author__photo {
     margin-bottom: 25px;
     font-size: 34px;
   }
-  .btn {
+  /* .btn {
     margin: 0px 0 0 57px;
     width: 300px;
-  }
+  } */
   .page-wrapper > section {
     padding-top: 100px;
     padding-bottom: 10px;
