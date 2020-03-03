@@ -843,10 +843,8 @@ width: 0px;
 .cta {
   cursor: pointer;
   display: inline-block;
-  font-family: 'Circe-Regular', sans-serif;
   text-decoration: none;
   width: auto;
-  font-size: 15px;
 }
 .cta > * {
   pointer-events: none;
@@ -878,6 +876,8 @@ width: 0px;
   font-weight: 600;
   line-height: 1.5rem;
   margin: 20px 0 0 10px;
+  font-family: 'Circe-Regular', sans-serif;
+  font-size: 15px;
 
 }
 .cta--is-2 > .cta__icon {
