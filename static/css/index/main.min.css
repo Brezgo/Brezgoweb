@@ -518,8 +518,8 @@ width: 0px;
 }
 
 .header-default__primary-item .icon--s {
-  bottom: 45px;
-  left: 235px;
+  bottom: 27px;
+  left: 165px;
   color: var(--color-is-6);
   position: absolute;
 }
@@ -913,7 +913,6 @@ width: 0px;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
-  width: 30px;
 }
 .cta--is-3 > .cta__external {
   -webkit-transform: rotate(-45deg);
@@ -1394,7 +1393,6 @@ width: 0px;
   transition: color 0.3s ease-in;
 }
 .header-default__primary-item .icon--svg {
-  bottom: 11px;
   color: var(--color-is-6);
   position: absolute;
 }
