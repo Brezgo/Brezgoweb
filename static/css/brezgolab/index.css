@@ -82,8 +82,8 @@ button {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../../img/brezgolab/noise.png);
-  background-color: #0d1322;
+  /* background-image: url(../../img/brezgolab/noise.png); */
+  background-color: #000;
   background-size: 32%;
   color: #c5c7cc;
 }
