@@ -32,6 +32,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* body {
   margin: 0;
   padding: 0;
@@ -246,6 +247,12 @@
     height: 688px;
   }
 }
+/* @media (min-width: 1366px) {
+  .wt-phone-case {
+    width: 327px;
+    height: 688px;
+  }
+} */
 
 @media (min-width: 1600px) {
   .wt-phone-cas {
@@ -253,7 +260,33 @@
     height: 612px;
   }
 }
+@media (min-width: 1366px) {
+  .wt-phone-cas {
+    width: 290px;
+    height: 612px;
+  }
+}
 
+@media (min-width: 1366px) {
+  .top-part__footer {
+      width: 90%;
+      min-height: 148px;
+      margin-top: 750px;
+      margin-left: 70px;
+      line-height: 143px;
+      font-family: "Circe-Regular", sans-serif;
+  }
+}
+@media (min-width: 1600px) {
+  .top-part__footer {
+    width: 100%;
+    min-height: 148px;
+    margin-top: 0px;
+    margin-left: -50px;
+    line-height: 143px;
+    font-family: "Circe-Regular", sans-serif;
+  }
+}
 @media (min-width: 1600px) {
   .wt-phone-shad {
     position: absolute;
@@ -269,7 +302,21 @@
     background-repeat: no-repeat;
   }
 }
-
+@media (min-width: 1366px) {
+  .wt-phone-shad {
+    position: absolute;
+    top: -8.577%;
+    left: -41.289%;
+    right: -14.68%;
+    bottom: -11.483%;
+    opacity: 0.8;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 @media (min-width: 1600px) {
   .wt-phone-scree {
     position: absolute;
@@ -284,6 +331,36 @@
     background: #fff;
   }
 }
+@media (min-width: 1366px) {
+  .wt-phone-scree {
+    position: absolute;
+    top: 8.45px;
+    left: 6.5px;
+    width: 199.55px;
+    height: 430.3px;
+    overflow: hidden;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    background: #fff;
+  }
+}
+@media (max-width: 360px) {
+  .wt-phone-scree {
+    position: absolute;
+      top: 4px;
+      left: 6.5px;
+      height: 285px;
+      margin: 50;
+      width: 132px;
+      overflow: hidden;
+      -webkit-border-radius: 19px;
+      -moz-border-radius: 19px;
+      border-radius: 19px;
+      background: #fff;
+  }
+}
+
 
 
 @media only screen and (min-width: 1600px) {
@@ -368,6 +445,17 @@
     border-radius: 30px;
   }
 }
+@media (min-width: 1366px) {
+  .wt-phone-scree {
+    top: 13px;
+    left: 10px;
+    width: 273px;
+    height: 589px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+}
 
 .wt-phone-screen-video {
   /* height: 100%;
@@ -409,6 +497,14 @@ width: 0px;
     width: 3900px;
     margin-top: 20px;
     margin-left: -1765px;
+    /* background-size: 3900px; */
+  }
+}
+@media (min-width: 1366px) {
+  .zeta {
+    width: 2800px;
+    margin-top: 20px;
+    margin-left: -1120px;
     /* background-size: 3900px; */
   }
 }
@@ -4780,6 +4876,7 @@ main:after {
     grid-column: 1/11;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .grid-space-wrap {
     padding: 160px 0;
@@ -6120,7 +6217,6 @@ header,
   margin-top: auto;
   margin-bottom: auto;
   padding-top: 300px;
-  /* padding-left: 350px; */
   padding-bottom: 60px;
   background-image: var(--color-is-15);
   background-repeat: no-repeat;
@@ -6139,14 +6235,14 @@ header,
   margin-top: -25px;
   color: var(--color-is-14);
 }
-.top-part__footer {
+/* .top-part__footer {
   width: 100%;
   min-height: 148px;
   margin-top: 150px;
   margin-left: -50px;
   line-height: 143px;
   font-family: "Circe-Regular", sans-serif;
-}
+} */
 .top-part__footer .container > .row {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
