@@ -908,7 +908,6 @@ width: 0px;
   transition: color 0.3s linear;
 }
 .cta--is-3 > .cta__icon {
-  height: 30px;
   margin-left: 8px;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
