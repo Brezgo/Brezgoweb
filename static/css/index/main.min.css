@@ -589,6 +589,8 @@ width: 0px;
   --color-is-15:#000;
   --color-is-16: url(https://i.ibb.co/3YyYPv0/logo-brezgo-2.png);
   --color-is-17: #9644DD;
+  --color-is-18:drop-shadow(0 0 15px #3be8b0);
+  --color-is-19:drop-shadow(0 0 15px #9644DD);
 }
 .theme--dark {
   --color-is-1: #fff;
@@ -608,6 +610,8 @@ width: 0px;
   --color-is-15: #000;
   --color-is-16: url(https://i.ibb.co/0rccZDY/logo-brezgo-jade.png);
   --color-is-17: #3BE8B0;
+  --color-is-18:drop-shadow(0 0 15px #9644DD);
+  --color-is-19:drop-shadow(0 0 15px #3BE8B0);
   background-color: #000;
 }
 .accordion__item-button,
@@ -842,6 +846,7 @@ width: 0px;
   font-family: 'Circe-Regular', sans-serif;
   text-decoration: none;
   width: auto;
+  font-size: 15px;
 }
 .cta > * {
   pointer-events: none;
@@ -3909,6 +3914,7 @@ body.theme--dark .hero-devices__image-1 {
   transform: translate3d(40px, 60vh, 0);
   transition-delay: 0.4s;
   width: 243px;
+  filter: var(--color-is-18);
 }
 .hero-devices--loaded .hero-devices__copy-wrapper,
 .hero-devices--loaded .hero-devices__image-wrapper {
