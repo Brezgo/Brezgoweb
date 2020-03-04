@@ -633,7 +633,7 @@
   --color-is-3: #fff;
   --color-is-4: #d7effe;
   --color-is-5: #4285f4;
-  --color-is-6: #073042;
+  --color-is-6: #000;
   --color-is-7: #eff7cf;
   --color-is-8: #fff;
   --color-is-9: #fff;
@@ -641,21 +641,21 @@
   --color-is-11: #4c4c4c;
   --color-is-12: #eff7cf;
   --color-is-13: #e9e9e9;
-  --color-is-14: rgba(7, 48, 66, 0.1);
+  --color-is-14: #808080;
 }
 .theme--dark {
   --color-is-1: #fff;
   --color-is-2: #000;
   --color-is-3: #000;
-  --color-is-4: #073042;
-  --color-is-5: #073042;
+  --color-is-4: #808080;
+  --color-is-5: #808080;
   --color-is-6: #fff;
   --color-is-7: yellow;
   --color-is-8: #2d2d2d;
   --color-is-9: #8ab4f8;
   --color-is-10: #10151c;
   --color-is-11: #000;
-  --color-is-12: #073042;
+  --color-is-12: #808080;
   --color-is-13: #4c4c4c;
   --color-is-14: #fff;
   background-color: #000;
@@ -911,7 +911,7 @@
   -webkit-box-align: center;
   align-items: center;
   background-color: transparent;
-  color: var(--color-is-6);
+  color: var(--color-is-10);
   display: -webkit-inline-box;
   display: inline-flex;
   font-weight: 600;
@@ -919,6 +919,7 @@
   margin: 20px 0 0 10px;
   font-family: 'Circe-Regular', sans-serif;
   font-size: 15px;
+
 }
 .cta--is-2 > .cta__icon,
 .device-gallery__bullets li > .cta__icon {
@@ -3555,6 +3556,7 @@
 }
 .cta-block__wrapper .cta {
   color: var(--color-is-6);
+  margin-top: -5px;
 }
 .cta-block__wrapper .cta__icon {
   stroke: var(--color-is-6);
@@ -3568,7 +3570,7 @@
 .cta-block--enterprise .cta-block__wrapper {
   border-top: 1px solid #c6c6c6;
   padding-top: 30px;
-  margin: 75px 0 0 0;
+  margin: -15px 0 0 0;
 }
 .device-gallery {
   grid-template-rows: 96px [masthead] auto 32px [items] auto [progress-bar] auto 96px;
@@ -3750,6 +3752,7 @@
 }
 .device-gallery__copy {
   margin-bottom: 40px;
+  color: #fff;
 }
 .device-gallery__image:before {
   border-radius: 50px;
@@ -3772,7 +3775,7 @@
   width: 160px;
 }
 .device-gallery__bullets li {
-  font-family: "Android Euclid", Helvetica, Arial, sans-serif;
+  font-family: 'Circe-Regular', sans-serif;
   margin-bottom: 24px;
 }
 .device-gallery__bullets li:before {
@@ -5705,7 +5708,7 @@ main:after {
     padding: 30px 0 160px;
   }
   .cta-block--enterprise {
-    margin-top: -50px !important;
+    margin-top: -220px !important;
   }
   .cta-block--enterprise .cta-block__wrapper {
     grid-column: 2/12;
