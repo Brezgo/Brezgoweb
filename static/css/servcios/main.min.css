@@ -34,6 +34,344 @@
     font-style: normal;
   }
 
+  .wt-phone-shadow {
+    position: absolute;
+    opacity: 0.8;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: 440px;
+    background-repeat: no-repeat;
+    top: -7.577%;
+    left: -39.289%;
+    right: -14.68%;
+    bottom: -11.483%;
+  }
+  
+  .wt-phone {
+    position: relative;
+    display: inline-block;
+    contain: layout style;
+  }
+  
+  .wt-phone-shado {
+    position: absolute;
+    top: -8.577%;
+    left: -41.289%;
+    right: -14.68%;
+    bottom: -11.483%;
+    opacity: 0.8;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .wt-phone-shad {
+    position: absolute;
+    top: -8.577%;
+    left: -41.289%;
+    right: -14.68%;
+    bottom: -11.483%;
+    opacity: 0.8;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .wt-phone-cas {
+    position: relative;
+    width: 142px;
+    height: 300.2px;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  
+  .wt-phone-case {
+    position: relative;
+    width: 212.55px;
+    height: 447.2px;
+    background-image: url(https://wickret.cuberto.com/assets/img/demo/phone.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .wt-phone-case {
+      width: 290px;
+      height: 612px;
+    }
+  }
+  
+  @media (max-width: 411px) {
+    .wt-phone-case {
+      width: 212.55px;
+    height: 447.2px;
+    }
+  }
+  
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+    (min-width: 768px) and (-o-min-device-pixel-ratio: 2/1),
+    (min-width: 768px) and (min-resolution: 192dpi) {
+    .wt-phone-case {
+      background-image: url(https://wickret.cuberto.com/assets/img/demo/phone@2x.png);
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .wt-phone-case {
+      width: 327px;
+      height: 688px;
+    }
+  }
+  /* @media (min-width: 1366px) {
+    .wt-phone-case {
+      width: 327px;
+      height: 688px;
+    }
+  } */
+  
+  @media (min-width: 1600px) {
+    .wt-phone-cas {
+      width: 290px;
+      height: 612px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .wt-phone-cas {
+      width: 290px;
+      height: 612px;
+    }
+  }
+  
+  @media (min-width: 1366px) {
+    .top-part__footer {
+        width: 90%;
+        min-height: 148px;
+        margin-top: 750px;
+        margin-left: 70px;
+        line-height: 143px;
+        font-family: "Circe-Regular", sans-serif;
+    }
+  }
+  @media (min-width: 1600px) {
+    .top-part__footer {
+      width: 100%;
+      min-height: 148px;
+      margin-top: 0px;
+      margin-left: -50px;
+      line-height: 143px;
+      font-family: "Circe-Regular", sans-serif;
+    }
+  }
+  @media (min-width: 1600px) {
+    .wt-phone-shad {
+      position: absolute;
+      top: -8.577%;
+      left: -41.289%;
+      right: -14.68%;
+      bottom: -11.483%;
+      opacity: 0.8;
+      background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  @media (min-width: 1366px) {
+    .wt-phone-shad {
+      position: absolute;
+      top: -8.577%;
+      left: -41.289%;
+      right: -14.68%;
+      bottom: -11.483%;
+      opacity: 0.8;
+      background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  @media (min-width: 1600px) {
+    .wt-phone-scree {
+      position: absolute;
+      top: 8.45px;
+      left: 6.5px;
+      width: 199.55px;
+      height: 430.3px;
+      overflow: hidden;
+      -webkit-border-radius: 19px;
+      -moz-border-radius: 19px;
+      border-radius: 19px;
+      background: #fff;
+    }
+  }
+  @media (min-width: 1366px) {
+    .wt-phone-scree {
+      position: absolute;
+      top: 8.45px;
+      left: 6.5px;
+      width: 199.55px;
+      height: 430.3px;
+      overflow: hidden;
+      -webkit-border-radius: 19px;
+      -moz-border-radius: 19px;
+      border-radius: 19px;
+      background: #fff;
+    }
+  }
+  @media (max-width: 360px) {
+    .wt-phone-scree {
+      position: absolute;
+        top: 4px;
+        left: 6.5px;
+        height: 285px;
+        margin: 50;
+        width: 132px;
+        overflow: hidden;
+        -webkit-border-radius: 19px;
+        -moz-border-radius: 19px;
+        border-radius: 19px;
+        background: #fff;
+    }
+  }
+  @media (max-width: 411px) {
+    .header-default__primary-item .icon--s {
+      bottom: 27px;
+      left: 165px;
+      color: var(--color-is-6);
+      position: absolute;
+    }
+  }
+  
+  .wt-phone-screen {
+    position: absolute;
+    top: 8.45px;
+    left: 6.5px;
+    width: 199.55px;
+    height: 430.3px;
+    overflow: hidden;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    background: #fff;
+  }
+  
+  .wt-phone-scree {
+    position: absolute;
+      top: 4px;
+      left: 6.5px;
+      height: 285px;
+      margin: 50;
+      width: 132px;
+      overflow: hidden;
+      -webkit-border-radius: 19px;
+      -moz-border-radius: 19px;
+      border-radius: 19px;
+      background: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .wt-phone-screen {
+      top: 11.05px;
+      left: 8.5px;
+      width: 260.95px;
+      height: 562.7px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+    }
+  }
+  
+  @media (max-width: 411px) {
+    .wt-phone-screen {
+      position: absolute;
+      top: 8.45px;
+      left: 6.5px;
+      width: 199.55px;
+      height: 430.3px;
+      overflow: hidden;
+      -webkit-border-radius: 19px;
+      -moz-border-radius: 19px;
+      border-radius: 19px;
+      background: #fff;
+    }
+  }
+  @media (min-width: 1600px) {
+    .wt-phone-screen {
+      top: 13px;
+      left: 10px;
+      width: 307px;
+      height: 662px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .wt-phone-scree {
+      top: 13px;
+      left: 10px;
+      width: 273px;
+      height: 589px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .wt-phone-scree {
+      top: 13px;
+      left: 10px;
+      width: 273px;
+      height: 589px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+  }
+  
+  .wt-phone-screen-video {
+    /* height: 100%;
+    width: 100%; */
+    line-height: 0;
+    contain: content;
+  }
+  .wt-phone-screen-video video {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .ie .wt-phone-screen-video video {
+    -webkit-transform: scale(1.011);
+    -moz-transform: scale(1.011);
+    -ms-transform: scale(1.011);
+    -o-transform: scale(1.011);
+    transform: scale(1.011);
+  }
+  
+  .wt-phone-screen-img {
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  .wt-phone-screen-video + .wt-phone-screen-img {
+    display: none;
+  }
+
+
 @media (max-width: 575px){
 .top-part__description, .description {
     font-size: 18px;
@@ -117,6 +455,7 @@
   display: inline-block;
   contain: layout style;
 }
+
 .wt-phone-case {
   position: relative;
   width: 142px;
@@ -128,8 +467,8 @@
 }
 .wt-phone-cas {
   position: relative;
-  width: 142px;
-  height: 300.2px;
+  width: 212.55px;
+  height: 447.2px;
   background-image: url(https://wickret.cuberto.com/assets/img/demo/phone.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -166,8 +505,8 @@
 }
 @media (min-width: 1600px){
   .wt-phone-cas {
-    width: 290px;
-    height: 612px;
+    width: 327px;
+    height: 688px;
   }
   }
 
@@ -177,42 +516,8 @@
   }
 }
 
-.wt-phone-screen {
-  position: absolute;
-  top: 4px;
-  left: 6.5px;
-  height: 285px;
-  margin: 50;
-  width: 132px;
-  overflow: hidden;
-  -webkit-border-radius: 19px;
-  -moz-border-radius: 19px;
-  border-radius: 19px;
-  background: #fff;
-}
-@media (min-width: 768px) {
-  .wt-phone-screen {
-    top: 11.05px;
-    left: 8.5px;
-    width: 260.95px;
-    height: 562.7px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-  }
-}
 
-@media (min-width: 411px) {
-  .wt-phone-screen {
-    top: 11.05px;
-    left: 8.5px;
-    width: 136.95px;
-    height: 280.7px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-  }
-}
+
 .wt-phone-scree {
   position: absolute;
     top: 4px;
@@ -3003,6 +3308,7 @@
   min-height: 422px;
   min-width: 195px;
   position: relative;
+  margin-left: 55px;
 }
 .content-multimedia__media-wrapper img {
   height: 100%;
@@ -3492,7 +3798,7 @@
   z-index: 20;
 }
 .hero-devices:before {
-  background-color: var(--color-is-3);
+  background-color:#fff;
   content: "";
   height: 1400px;
   position: absolute;
@@ -5301,6 +5607,8 @@ main:after {
     grid-row: first-row;
     min-height: 605px;
     min-width: 280px;
+    margin-left: 65px;
+    margin-top: 85px;
   }
   .content-multimedia--timer .content-multimedia__media-wrapper {
     margin-bottom: 0;
