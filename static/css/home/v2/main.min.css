@@ -2354,7 +2354,7 @@
 .hero-looper__wrapper {
   grid-template-rows: [padding-top] 70px [first-row] auto 32px [second-row] auto [padding-bottom] 96px;
   height: 100%;
-  margin: 15px 0 0 3px;
+  margin-top: 70px;
 }
 .hero-looper__animation-wrapper {
   display: grid;
