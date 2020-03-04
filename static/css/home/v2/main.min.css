@@ -638,11 +638,11 @@
 .cta--is-3 {
   background-color: transparent;
   color: #000;
-  letter-spacing: -0.0625rem;
   transition: color 0.3s linear;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   font-weight: inherit;
+
 }
 .cta--is-3 > .cta__icon {
   height: 24px;
