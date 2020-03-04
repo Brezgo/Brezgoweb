@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: 'Circe-Light';
   src: url('../../../fonts/Circe-Light.woff2') format('woff2'); 
@@ -34,6 +32,18 @@
   font-weight: normal;
   font-style: normal;
 }
+.pill {
+  display: inline-block;
+  background-color: rgba(59, 232, 176, 0.21);
+  border-radius: 50px;
+  height: 20px;
+  padding: 0 18px;
+  font-size: 13px;
+  color: #3be8b0;
+  font-weight: 500;
+  line-height: 1.6em;
+  vertical-align: middle;
+}
 
 .wt-phone-shadow {
   position: absolute;
@@ -53,12 +63,12 @@
   bottom: -11.483%;
 }
 .logo-brezgo{
-  width: 70px;
-  margin: 15px 0 0 0px;
+  width: 65px;
+  margin: 15px 0 0 3px;
 }
 @media (min-width: 1600px) {
   .logo-brezgo{
-    width: 80px;
+    width: 65px;
     margin: 12px 0 0 0px;
   }
 }
@@ -335,17 +345,17 @@
 :root {
   --color-is-1: #000;
   --color-is-2: #fff;
-  --color-is-3: #3ddc84;
+  --color-is-3: #3BE8B0;
   --color-is-4: #d7effe;
-  --color-is-5: #4285f4;
+  --color-is-5: #576FFD;
   --color-is-6: #073042;
-  --color-is-7: #eff7cf;
+  --color-is-7: #3BE8B0;
   --color-is-8: #fff;
   --color-is-9: #fff;
   --color-is-10: #707173;
   --color-is-11: #4c4c4c;
-  --color-is-12: #eff7cf;
-  --color-is-13: #e9e9e9;
+  --color-is-12: #576FFD;
+  --color-is-13: #3BE8B0;
   --color-is-14: rgba(7, 48, 66, 0.1);
 }
 .theme--dark {
@@ -2344,6 +2354,7 @@
 .hero-looper__wrapper {
   grid-template-rows: [padding-top] 70px [first-row] auto 32px [second-row] auto [padding-bottom] 96px;
   height: 100%;
+  margin: 15px 0 0 3px;
 }
 .hero-looper__animation-wrapper {
   display: grid;
@@ -2441,12 +2452,13 @@
   z-index: -1;
 }
 .hero-looper__background-shape {
-  background-color: #d7effe;
+  background-color: #576FFD;
   grid-area: topleft;
   height: 258px;
   -webkit-transform: translate3d(-40%, -160%, 0);
   transform: translate3d(-40%, -160%, 0);
   width: 258px;
+  filter: drop-shadow(0 0 15px #4285f4);
 }
 .hero-looper--loaded .hero-looper__image-wrapper,
 .hero-looper--loaded .hero-looper__shape {
@@ -2539,7 +2551,7 @@
 .hero-looper--loop-2 .hero-looper__image-container-6 {
   opacity: 1;
   -webkit-transform: translate3d(50vw, -100px, 0) scale(0.8) rotate(-90deg);
-  transform: translate3d(50vw, -100px, 0) scale(0.8) rotate(-90deg);
+  transform: translate3d(60vw, -100px, 0) scale(0.8) rotate(-90deg);
 }
 .hero-looper--loop-2 .hero-looper__shape--2,
 .hero-looper--loop-2 .hero-looper__shape--3 {
@@ -3110,7 +3122,6 @@ main:after {
     -webkit-box-align: center;
     align-items: center;
     display: -webkit-box;
-    display: flex;
     height: 100%;
     padding: 0;
     position: inherit;
