@@ -507,42 +507,7 @@ width: 0px;
     /* background-size: 3900px; */
   }
 }
-@media (min-width: 360px) {
-  .zeta1 {
-    width: 700px;
-    margin-top: 630px;
-    margin-left: -150px;
-}
-}
-@media (min-width: 360px) {
-  .zeta2 {
-    width: 700px;
-    margin-top: 1000px;
-    margin-left: -216px;
-}
-}
 
-@media (min-width: 360px) {
-  .zeta3 {
-    width: 700px;
-    margin-top: 265px;
-    margin-left: -216px;
-}
-}
-@media (min-width: 1600px) {
-  .zeta1 {
-    width: 0px;
-  }
-}
-@media (min-width: 1600px) {
-  .zeta2 {
-    width: 0px;
-  }
-}@media (min-width: 1600px) {
-  .zeta3 {
-    width: 0px;
-  }
-}
 @media (min-width: 1600px) {
   .bt  {
     margin: 50px 0 0 170px;
@@ -8412,6 +8377,7 @@ img.quote-author__photo {
     margin: -100px 0 50px;
     font-size: 5vw;
     line-height: 5.5rem;
+    font-weight: bold;
   }
   /* .top-part__description {
     font-size: 1.7vw;

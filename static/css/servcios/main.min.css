@@ -217,9 +217,7 @@
   position: absolute;
     top: 4px;
     left: 6.5px;
-    height: 315px;
     margin: 50;
-    width: 142px;
     overflow: hidden;
     -webkit-border-radius: 19px;
     -moz-border-radius: 19px;
@@ -306,6 +304,23 @@
   border-color: #f2f2f2;
   background: #f2f2f2;
   color: #787878;
+}
+
+.logo-brezgo{
+  margin: 15px 0 0 3px;
+  width: 65px;
+}
+.pill {
+  display: inline-block;
+  background-color: rgba(59, 232, 176, 0.21);
+  border-radius: 50px;
+  height: 20px;
+  padding: 0 18px;
+  font-size: 13px;
+  color: #3be8b0;
+  font-weight: 500;
+  line-height: 1.6em;
+  vertical-align: middle;
 }
 :root {
   --color-is-1: #000;
@@ -635,18 +650,17 @@
 .cta--is-3 {
   background-color: transparent;
   color: #000;
-  font: 700 3.5rem/3.5rem 'Circe-Light', sans-serif;
+  /* font: 700 3.0rem/3.0rem 'Circe-Light', sans-serif; */
   transition: color 0.3s linear;
   font-weight: inherit;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 .cta--is-3 > .cta__icon {
-  height: 30px;
   margin-left: 8px;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
-  width: 30px;
-  margin-bottom: 5px;
 }
 .header-default__primary-item .icon--s {
   bottom: 40px;
@@ -3497,6 +3511,7 @@
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 16px;
+  font-family: "Circe-Regular", sans-serif;
 }
 
 .hero-devices__image-wrapper {
@@ -3615,7 +3630,7 @@ body.theme--dark .hero-devices__image-1 {
   width: 258px;
 }
 .hero-devices__shape--2 {
-  background-color: #4285f4;
+  background-color: #576FFD;
   border: none;
   grid-area: topright;
   height: 450px;
@@ -3623,6 +3638,7 @@ body.theme--dark .hero-devices__image-1 {
   transform: translate(-50px, 150vh);
   transition-delay: 0.1s;
   width: 243px;
+  filter: drop-shadow(0 0 15px #576FFD);
 }
 .hero-devices__shape--3 {
   border-color: var(--color-is-7);
@@ -3800,8 +3816,9 @@ body.theme--dark .hero-devices__image-1 {
   transform: translate(-50px, 150vh);
 }
 .hero-devices--enterprise .hero-devices__shape--3 {
-  border-color: #98ca3f;
+  border-color:#3be8b0;
   height: 720px;
+  filter: drop-shadow(0 0 15px #3be8b0);
 }
 .hero-devices--enterprise .hero-devices__image-wrapper .hero-devices__image {
   -webkit-box-pack: center;
@@ -3895,31 +3912,23 @@ body.theme--dark .hero-devices__image-1 {
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-2 {
-  -webkit-transform: translate3d(
-    10%,
-    calc((var(--scroll-position) * -0.4) + -15%),
-    0
-  );
-  transform: translate3d(10%, calc((var(--scroll-position) * -0.4) + -15%), 0);
+    -webkit-transform: translate3d( 10%, calc((var(--scroll-position) * -0.2) + 10%), 0 );
+    transform: translate3d(10%, calc((var(--scroll-position) * -0.05) + 1%), 0);
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-3 {
-  -webkit-transform: translate3d(
-    -80%,
-    calc((var(--scroll-position) * 0.1) + -15% 5%),
-    0
-  );
-  transform: translate3d(-80%, calc((var(--scroll-position) * 0.1) + -15% 5%), 0);
+    -webkit-transform: translate3d( -80%, calc((var(--scroll-position) * 0.1) + -15% 5%), 0 );
+    transform: translate3d(-20%, calc((var(--scroll-position) * 0.04) + -15% -2%), 0);
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-4 {
     -webkit-transform: translate3d( 20%, calc((var(--scroll-position) * -0.25) + -100px), 0 );
-    transform: translate3d( 20%, calc((var(--scroll-position) * -0.25) + -180px), 0 );
+    transform: translate3d( 20%, calc((var(--scroll-position) * -0.05) + -180px), 0 );
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-5 {
     -webkit-transform: translate3d( 10%, calc((var(--scroll-position) * -0.1) - 60%), 0 );
-    transform: translate3d(10%, calc((var(--scroll-position) * -0.1) - 60%), 0);
+    transform: translate3d(10%, calc((var(--scroll-position) * -0.1) - 35%), 0);
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-6 {
@@ -3928,14 +3937,8 @@ body.theme--dark .hero-devices__image-1 {
 }
 .hero-devices--enterprise.hero-devices--loaded
   .hero-devices__image-container-7 {
-  -webkit-transform: translate3d(
-      150%,
-      calc(var(--scroll-position) * -0.13 + 260px),
-      0
-    )
-    rotate(-90deg);
-  transform: translate3d(150%, calc(var(--scroll-position) * -0.13 + 260px), 0)
-    rotate(-90deg);
+    -webkit-transform: translate3d( 150%, calc(var(--scroll-position) * -0.13 + 260px), 0 ) rotate(-90deg);
+    transform: translate3d(150%, calc(var(--scroll-position) * -0.13 + 150px), 0) rotate(-90deg);
 }
 .theme-blue-sky {
   background-color: #d7effe;
@@ -4921,7 +4924,6 @@ main:after {
     -webkit-box-align: center;
     align-items: center;
     display: -webkit-box;
-    display: flex;
     height: 100%;
     padding: 0;
     position: inherit;

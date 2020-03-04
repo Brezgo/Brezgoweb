@@ -4065,6 +4065,7 @@ img.quote-author__photo {
   .description {
     font-size: 18px;
     line-height: 1.78;
+    font-family: "Circe-Regular", sans-serif;
   }
   .top-part__footer {
     display: none;
