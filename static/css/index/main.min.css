@@ -221,12 +221,12 @@
 
 @media (min-width: 768px) {
   .wt-phone-case {
-    width: 237.95px;
-    height: 512.8px;
+    width: 290px;
+    height: 612px;
   }
 }
 
-@media (min-width: 411px) {
+@media (max-width: 411px) {
   .wt-phone-case {
     width: 212.55px;
   height: 447.2px;
@@ -408,7 +408,7 @@
   }
 }
 
-@media (min-width: 411px) {
+@media (max-width: 411px) {
   .wt-phone-screen {
     position: absolute;
     top: 8.45px;
