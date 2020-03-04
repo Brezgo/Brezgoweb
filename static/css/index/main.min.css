@@ -6323,6 +6323,7 @@ header,
   font-family: "Circe-Regular", sans-serif;
   transition: opacity 0.35s;
   cursor: pointer;
+  font-size: 15px;
 }
 .link--line {
   display: inline !important;
