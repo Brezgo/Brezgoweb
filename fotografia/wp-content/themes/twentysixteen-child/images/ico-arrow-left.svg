@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="194px" height="114px" viewBox="0 0 194 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1680---Gallery-Copy" transform="translate(-20.000000, -791.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Arrow-Copy" transform="translate(117.000000, 848.000000) scale(-1, 1) translate(-117.000000, -848.000000) translate(20.000000, 791.000000)">
+                <path d="M0,56.9999653 L193,56.9999653 C155.133159,56.7168642 136.199739,37.7168758 136.199739,0" id="Path-2"></path>
+                <path d="M194,114 C156,113.716899 137,94.7168988 137,57" id="Path-2-Copy" transform="translate(165.500000, 85.500000) scale(1, -1) translate(-165.500000, -85.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
