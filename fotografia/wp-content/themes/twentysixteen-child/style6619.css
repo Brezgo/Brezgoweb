@@ -49,7 +49,7 @@ html {
 	overflow-x: hidden; 
 }
 .site {
-    background-color: #1B1515;
+    background-color: #000;
 }
 body, button, input, select, textarea, a, .entry-title {
 	font-family: 'Druk-WideMedium', sans-serif;
