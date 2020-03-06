@@ -513,7 +513,7 @@ width: 0px;
     margin: 50px 0 0 170px;
   }
 }
-.loader {
+/* .loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -535,7 +535,19 @@ width: 0px;
     opacity: .8;
   }
 }
- 
+  */
+  .iconos{
+    width: 45px;
+    margin-top: -15px;
+    margin-left: 27px;
+
+  }
+  @media (min-width: 1600px) {
+    .iconos{
+      width: 65px;
+      margin-left: 35px;
+    }
+  }
   svg.waves {
     z-index: -1;
     position: absolute;
@@ -3954,7 +3966,7 @@ body.theme--dark .hero-devices__image-1 {
   width: 258px;
 }
 .hero-devices__shape--2 {
-    background-color: var(--color-is-17);
+    
     grid-area: topright;
     height: 450px;
     -webkit-transform: translate(-50px, 150vh);
