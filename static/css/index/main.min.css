@@ -194,7 +194,7 @@
   background-image: url(../../img/phone-shadow.png);
   -webkit-background-size: contain;
   -moz-background-size: contain;
-  background-size: contain;
+  background-size: 220px;
   background-repeat: no-repeat;
 }
 
