@@ -191,7 +191,7 @@
   right: -14.68%;
   bottom: -11.483%;
   opacity: 0.8;
-  background-image: url(../../img/phone-shadow.png);
+  background-image: url(https://wickret.cuberto.com/assets/img/demo/phone-shadow.png);
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: 220px;
@@ -309,7 +309,7 @@
     right: -14.68%;
     bottom: -11.483%;
     opacity: 0.8;
-    /* background-image: url(../../img/phone-shadow.png); */
+    background-image: url(../../img/phone-shadow.png);
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
