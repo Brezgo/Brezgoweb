@@ -1323,8 +1323,8 @@ nav #nav-logo {
 }
 @media (min-width: 1024px) {
   nav #nav-logo {
-    background-size: 65px;
-    width: 65px;
+    background-size: 70px;
+    width: 70px;
     height: 35px;
     position: absolute;
     top: 20px;
@@ -1430,7 +1430,7 @@ nav .seperator {
 }
 @media (min-width: 1024px) {
   .nav-overlay-menu a.nav-item {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 .nav-overlay-menu a.nav-item:hover {
