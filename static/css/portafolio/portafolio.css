@@ -1430,7 +1430,7 @@ nav .seperator {
 }
 @media (min-width: 1024px) {
   .nav-overlay-menu a.nav-item {
-    font-size: 3vw;
+    font-size: 2rem;
   }
 }
 .nav-overlay-menu a.nav-item:hover {
