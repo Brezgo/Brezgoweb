@@ -3443,7 +3443,7 @@ body.theme--dark .content-dark__image--light {
   color: var(--color-is-1);
     /* font: 500 1rem/1.5rem "Circe-Regular", sans-serif; */
     /* letter-spacing: -0.03125rem; */
-    /* font-family: "Circe-Regular", sans-serif; */
+    font-family: "Circe-Regular", sans-serif;
     /* font-size: 18px; */
     padding: 15px;
 }
@@ -10081,7 +10081,6 @@ img.quote-author__photo {
     line-height: 1.78;
     color: var(--color-is-1);
     margin: 5px;
-    font-family: "Circe-Regular", sans-serif;
   }
   .top-part__footer {
     display: none;
