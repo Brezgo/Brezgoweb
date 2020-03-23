@@ -5743,7 +5743,7 @@ main:after {
   }
   .hero-devices--loaded .hero-devices__shape--2 {
     -webkit-transform: translate3d( -130px, calc((var(--scroll-position) * -0.15) + 150px), 0 );
-    transform: translate3d( -85px, calc((var(--scroll-position) * -0.15) + 150px), 0 );
+    transform: translate3d( 200px, calc((var(--scroll-position) * -0.15) + 150px), 0 );
   }
   .hero-devices--loaded .hero-devices__shape--3 {
     -webkit-transform: translate3d(
@@ -8370,7 +8370,7 @@ img.quote-author__photo {
   .top-part__title {
     margin-bottom: 1.5vw;
     margin: -100px 0 50px;
-    font-size: 5vw;
+    font-size: 5.5vw;
     line-height: 5.5rem;
     font-weight: bold;
   }
