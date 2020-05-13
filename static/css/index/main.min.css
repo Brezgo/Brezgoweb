@@ -32,123 +32,8 @@
   font-weight: normal;
   font-style: normal;
 }
-/* body {
-  margin: 0;
-  padding: 0;
-  background-image: url(../../img/brezgolab/noise.png);
-  background-color: #0d1322;
-  background-size: 32%;
-  color: #c5c7cc;
-} */
-/* phone simulator */
-.phone {
-  border: 40px solid var(--color-is-1);
-  border-width: 25px 1px;
-  border-radius: 20px;
-  margin: 50px 0 0 40%;
-  overflow: hidden;
-  transition: all 0.5s ease;
-}
-
-.phone iframe {
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
-.phone.view_1 {
-  transform: rotateX(50deg) rotateY(0deg) rotateZ(-50deg);
-
-}
-
-.phone.view_2 {
-  transform: rotateX(0deg) rotateY(-60deg) rotateZ(0deg);
-
-}
-
-.phone.view_3 {
-  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-
-}
-
-
-#controls {
-  position: absolute;
-
-  left: 3000px;
-  font-size: 0.9em;
-  color: #333;
-}
-
-#controls div {
-  margin: 10px;
-}
-
-#controls div label {
-  width: 120px;
-  display: block;
-  float: left;
-}
-
-#views {
-  position: absolute;
-  margin: -400px 410px;
-  width: 200px;
-}
-
-#views button {
-  margin: 10px 0;
-  position: relative;
-  display: inline-block;
-  padding: 12px 50px;
-  padding-right: 45px;
-  border-radius: 25px;
-  border: 2px solid #000000;
-  background: var(--color-is-1);
-  font-family: "Circe-Bold", sans-serif;
-  color: var(--color-is-2);
-  transition: background 0.35s, border 0.35s;
-  cursor: pointer;
-  width: 300px;
-  font: 500 1rem/1.5rem "Circe-Regular", sans-serif;
-  /* letter-spacing: -0.03125rem; */
-  font-family: "Circe-Regular", sans-serif;
-  font-size: 18px;
-}
-
-#views button:hover {
-  background: #ffffff;
-  color: #000000;
-}
-
-@media (max-width: 900px) {
-  #wrapper {
-    transform: scale(0.8, 0.8);
-  }
-}
-
-@media (max-width: 700px) {
-  #wrapper {
-    margin: -150px 0 -100px -225px;
-  }
-}
-
-@media (max-width: 700px) {
-  #views {
-    left: 1500px;
-  }
-}
-@media (max-width: 400px) {
-  #views button {  
-    width: 198px;
-    border: 1px solid white;  
-    color: #fff;
-    transition: all 0.2s;
-    background: #fff;
-  }
-}
-/* --- */
 
 .wt-phone-shadow {
   position: absolute;
@@ -246,12 +131,7 @@
     height: 688px;
   }
 }
-/* @media (min-width: 1366px) {
-  .wt-phone-case {
-    width: 327px;
-    height: 688px;
-  }
-} */
+
 
 @media (min-width: 1600px) {
   .wt-phone-cas {
